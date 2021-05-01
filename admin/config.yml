@@ -3,6 +3,7 @@ backend:
   name: "github"
   repo: "ocaml/ood"
   open_authoring: true
+publish_mode: editorial_workflow
 local_backend: true
 i18n:
   structure: "multiple_files"
