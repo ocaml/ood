@@ -2,6 +2,7 @@
 backend:
   name: "github"
   repo: "ocaml/ood"
+  branch: "main"
   open_authoring: true
   site_domain: https://ocaml.github.io/ood/
   base_url: https://oauth.ocaml.org/
