@@ -4,6 +4,7 @@ backend:
   repo: "ocaml/ood"
   open_authoring: true
   site_domain: https://ocaml.github.io/ood/
+  base_domain: https://oauth.ocaml.org:3000/
 publish_mode: editorial_workflow
 local_backend: true
 i18n:
