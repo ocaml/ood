@@ -36,6 +36,21 @@ module Events : sig
   include S.FileData with type t := t
 end
 
+module Release : sig
+  type kind = [%import: Ood.Releases.Release.kind] [@@deriving yaml]
+
+  type t = [%import: Ood.Releases.Release.t] [@@deriving yaml]
+
+  include S.Data with type t := t
+end
+
+module Releases : sig
+  type t = [%import: Ood.Releases.t] [@@deriving yaml]
+
+  include S.FileData with type t := t
+end
+
+
 module Tutorial : sig
   type t = [%import: Ood.Tutorial.t] [@@deriving yaml]
 

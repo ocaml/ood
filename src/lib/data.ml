@@ -106,6 +106,35 @@ module Videos = struct
       ~file:path ~fields ()
 end
 
+module Release = struct
+
+  type kind = [%import: Ood.Releases.Release.kind] [@@deriving enumerate]
+
+  let kind_to_yaml k = `String (Ood.Releases.Release.kind_to_string k)
+
+  let kind_of_yaml = function
+    | `String s -> Ood.Releases.Release.kind_of_string s
+    | _ -> Error (`Msg "Expected yaml string")
+
+  type t = [%import: Ood.Releases.Release.t] [@@deriving yaml]
+
+  let lint = parse_yaml of_yaml
+
+end
+
+module Releases = struct
+  type t = [%import: Ood.Releases.t] [@@deriving yaml]
+
+  let lint = parse_yaml of_yaml
+
+  let path = "data/releases.yml"
+
+  let file =
+    let fields = [] in (* Wont be used *)
+    Netlify.Collection.Files.File.make ~name:"releases" ~label:"OCaml Releases"
+     ~file:path ~fields ()
+end
+
 module Event = struct
   type t = [%import: Ood.Events.Event.t] [@@deriving yaml]
 

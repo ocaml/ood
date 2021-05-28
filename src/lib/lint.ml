@@ -39,6 +39,8 @@ let run () =
               (linter "lint events" Events.path Events.lint);
             test_case Videos.path `Quick
               (linter "lint videos" Videos.path Videos.lint);
+            test_case Releases.path `Quick
+              (linter "lint releases" Releases.path Releases.lint);
           ] );
         ("folders", [ test_case Tutorial.path `Quick lint_tutorials ]);
       ];
