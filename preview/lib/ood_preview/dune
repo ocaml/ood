@@ -1,0 +1,30 @@
+(library
+ (name ood_preview)
+ (libraries ood omd yaml)
+ (preprocess
+  (pps ppx_deriving_yaml)))
+
+(rule
+ (targets data.ml)
+ (deps
+  (source_tree ../../../data/))
+ (action
+  (with-stdout-to
+   %{null}
+   (run
+    %{bin:ocaml-crunch}
+    -e
+    md
+    -e
+    yml
+    -e
+    gif
+    -e
+    jpg
+    -e
+    png
+    -m
+    plain
+    ../../../data
+    -o
+    %{targets}))))

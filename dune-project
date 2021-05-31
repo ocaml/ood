@@ -43,6 +43,23 @@
   alcotest))
 
 (package
+ (name ood-preview)
+ (synopsis "Preview ood content")
+ (description "Preview ood content")
+ (depends
+  (ocaml
+   (>= 4.08.0))
+  dune
+  crunch
+  dream
+  dream-cli
+  dream-livereload
+  yaml
+  omd
+  (alcotest :with-test)
+  (odoc :with-doc)))
+
+(package
  (name netlify-cms)
  (synopsis "OCaml encoding of Netlify CMS Configuration Files")
  (description
