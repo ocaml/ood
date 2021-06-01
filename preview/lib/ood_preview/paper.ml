@@ -26,4 +26,4 @@ let all () =
 
 let id_of_t (t : t) = Utils.slugify t.title
 
-let get_by_id id = all () |> List.find_opt (fun book -> id_of_t book = id)
+let get_by_id id = all () |> List.find_opt (fun paper -> id_of_t paper = id)

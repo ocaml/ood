@@ -17,6 +17,8 @@ let routes =
   ; Dream.get "/papers" Page_handler.papers
   ; Dream.get "/success-stories" Page_handler.success_stories
   ; Dream.get "/books" Page_handler.books
+  ; Dream.get "/events" Page_handler.events
+  ; Dream.get "/videos" Page_handler.videos
   ; Dream.get "/assets/**" (Dream.static ~loader "")
   ; Dream.get "/media/**" (Dream.static ~loader:media_loader "")
   ]

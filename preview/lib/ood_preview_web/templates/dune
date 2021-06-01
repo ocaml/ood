@@ -39,3 +39,15 @@
  (deps success_stories_template.eml)
  (action
   (run %{bin:dream_eml} %{deps} --workspace %{workspace_root})))
+
+(rule
+ (targets events_template.ml)
+ (deps events_template.eml)
+ (action
+  (run %{bin:dream_eml} %{deps} --workspace %{workspace_root})))
+
+(rule
+ (targets videos_template.ml)
+ (deps videos_template.eml)
+ (action
+  (run %{bin:dream_eml} %{deps} --workspace %{workspace_root})))

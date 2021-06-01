@@ -18,3 +18,13 @@ let books _req =
   let books = Ood_preview.Book.all () in
   Layout_template.render ~title:"Books" (Books_template.render books)
   |> Dream.html
+
+let events _req =
+  let events = Ood_preview.Event.all () in
+  Layout_template.render ~title:"Events" (Events_template.render events)
+  |> Dream.html
+
+let videos _req =
+  let videos = Ood_preview.Video.all () in
+  Layout_template.render ~title:"Videos" (Videos_template.render videos)
+  |> Dream.html
