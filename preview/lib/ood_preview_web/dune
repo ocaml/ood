@@ -17,6 +17,8 @@
     -e
     jpeg
     -e
+    png
+    -e
     js
     -e
     svg

@@ -13,3 +13,8 @@ let success_stories _req =
     ~title:"Success Stories"
     (Success_stories_template.render success_stories)
   |> Dream.html
+
+let books _req =
+  let books = Ood_preview.Book.all () in
+  Layout_template.render ~title:"Books" (Books_template.render books)
+  |> Dream.html

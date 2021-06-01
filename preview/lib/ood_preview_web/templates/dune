@@ -1,4 +1,10 @@
 (rule
+ (targets books_template.ml)
+ (deps books_template.eml)
+ (action
+  (run %{bin:dream_eml} %{deps} --workspace %{workspace_root})))
+
+(rule
  (targets header_section_template.ml)
  (deps header_section_template.eml)
  (action

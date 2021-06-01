@@ -1,5 +1,3 @@
-open Import
-
 type metadata = Ood.Success_story.t =
   { title : string
   ; image : string option
@@ -14,33 +12,14 @@ type t =
   ; body : string
   }
 
-let extract_metadata_body s =
-  match Str.split (Str.regexp "---") s with
-  | [ metadata; body ] ->
-    metadata, String.trim body
-  | _ ->
-    Logs.app (fun m -> m "%s" s);
-    raise (Exn.Decode_error "expected metadata at the top of the file")
-
-let decode_or_raise f x =
-  match f x with Ok x -> x | Error (`Msg err) -> raise (Exn.Decode_error err)
-
 let decode_metadata s =
-  let yaml = decode_or_raise Yaml.of_string s in
-  decode_or_raise metadata_of_yaml yaml
+  let yaml = Utils.decode_or_raise Yaml.of_string s in
+  Utils.decode_or_raise metadata_of_yaml yaml
 
 let all () =
-  let contents =
-    Data.file_list
-    |> List.filter_map (fun x ->
-           if String.prefix x 18 = "success_stories/en" then
-             Data.read x
-           else
-             None)
-  in
-  List.map
+  Utils.map_files
     (fun content ->
-      let metadata, body = extract_metadata_body content in
+      let metadata, body = Utils.extract_metadata_body content in
       let metadata = decode_metadata metadata in
       let body = Omd.of_string body |> Omd.to_html in
       { title = metadata.title
@@ -48,4 +27,8 @@ let all () =
       ; url = metadata.url
       ; body
       })
-    contents
+    "success_stories/en"
+
+let id_of_t (t : t) = Utils.slugify t.title
+
+let get_by_id id = all () |> List.find_opt (fun book -> id_of_t book = id)

@@ -11,20 +11,4 @@
  (action
   (with-stdout-to
    %{null}
-   (run
-    %{bin:ocaml-crunch}
-    -e
-    md
-    -e
-    yml
-    -e
-    gif
-    -e
-    jpg
-    -e
-    png
-    -m
-    plain
-    ../../../data
-    -o
-    %{targets}))))
+   (run %{bin:ocaml-crunch} -m plain ../../../data -o %{targets}))))

@@ -21,6 +21,7 @@ let t =
           ; icon = ""
           ; text = ""
           }
+        ; { label = "Books"; url = "/books"; icon = ""; text = "" }
         ]
     }
   ]
