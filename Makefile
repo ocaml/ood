@@ -37,7 +37,7 @@ install: all ## Install the packages on the system
 
 .PHONY: preview
 preview: all ## Run the produced executable
-	opam exec -- ./preview/script/watch.sh
+	cd src/ood-preview/ && opam exec -- script/watch.sh
 
 .PHONY: test
 test: ## Run the unit tests

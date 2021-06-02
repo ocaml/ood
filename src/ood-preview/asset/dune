@@ -16,6 +16,6 @@
     node_modules/tailwindcss/lib/cli.js
     build
     -c
-    preview/config/tailwind.config.js
+    src/ood-preview/config/tailwind.config.js
     -o
     %{target}))))

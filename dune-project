@@ -36,11 +36,14 @@
   yaml
   ppx_import
   ppx_deriving_yaml
-  netlify-cms
   fmt
   cmdliner
   bos
-  alcotest))
+  alcotest
+  (netlify-cms
+   (= :version))
+  (ood
+   (= :version))))
 
 (package
  (name ood-preview)
@@ -56,6 +59,8 @@
   dream-livereload
   yaml
   omd
+  (ood
+   (= :version))
   (alcotest :with-test)
   (odoc :with-doc)))
 

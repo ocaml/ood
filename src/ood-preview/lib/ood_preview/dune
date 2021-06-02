@@ -7,8 +7,8 @@
 (rule
  (targets data.ml)
  (deps
-  (source_tree ../../../data/))
+  (source_tree %{workspace_root}/data/))
  (action
   (with-stdout-to
    %{null}
-   (run %{bin:ocaml-crunch} -m plain ../../../data -o %{targets}))))
+   (run %{bin:ocaml-crunch} -m plain %{workspace_root}/data -o %{targets}))))
