@@ -48,5 +48,5 @@ jobs:
         run: opam exec -- dune build --root . --ignore-promoted-rules
 
       - name: Run the unit tests
-        run: make test
+        run: opam exec -- dune runtest --root . --ignore-promoted-rules
         timeout-minutes: 1
