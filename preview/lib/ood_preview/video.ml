@@ -31,24 +31,6 @@ type t = Ood.Videos.Video.t =
   ; year : int
   }
 
-let kind_of_string = function
-  | "conference" ->
-    Ok `Conference
-  | "mooc" ->
-    Ok `Mooc
-  | "lecture" ->
-    Ok `Lecture
-  | _ ->
-    Error (`Msg "Unknown video kind")
-
-let kind_to_string = function
-  | `Conference ->
-    "conference"
-  | `Mooc ->
-    "mooc"
-  | `Lecture ->
-    "lecture"
-
 let decode s =
   let yaml = Utils.decode_or_raise Yaml.of_string s in
   match yaml with
@@ -57,7 +39,7 @@ let decode s =
       (fun x ->
         let (metadata : metadata) = Utils.decode_or_raise metadata_of_yaml x in
         let kind =
-          match kind_of_string metadata.kind with
+          match Ood.Videos.Video.kind_of_string metadata.kind with
           | Ok x ->
             x
           | Error (`Msg err) ->

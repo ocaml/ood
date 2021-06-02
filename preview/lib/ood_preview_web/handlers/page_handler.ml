@@ -28,3 +28,20 @@ let videos _req =
   let videos = Ood_preview.Video.all () in
   Layout_template.render ~title:"Videos" (Videos_template.render videos)
   |> Dream.html
+
+let tutorial req =
+  let id = Dream.param "id" req in
+  let tutorials = Ood_preview.Tutorial.all () in
+  match Ood_preview.Tutorial.get_by_id id with
+  | Some tutorial ->
+    Layout_template.render
+      ~title:tutorial.Ood_preview.Tutorial.title
+      (Tutorial_template.render tutorials tutorial)
+    |> Dream.html
+  | None ->
+    Dream.not_found req
+
+let tutorials req =
+  let first = Ood_preview.Tutorial.all () |> List.hd in
+  let id = Ood_preview.Tutorial.id_of_t first in
+  Dream.redirect req ("/tutorials/" ^ id)

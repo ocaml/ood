@@ -1,0 +1,58 @@
+type proficiency =
+  [ `Beginner
+  | `Intermediate
+  | `Advanced
+  ]
+
+type metadata =
+  { title : string
+  ; description : string
+  ; date : string
+  ; tags : string list
+  ; users : string list
+  }
+[@@deriving yaml]
+
+type t =
+  { title : string
+  ; description : string
+  ; date : string
+  ; tags : string list
+  ; users : proficiency list
+  ; body : string
+  }
+
+let decode_metadata s =
+  let yaml = Utils.decode_or_raise Yaml.of_string s in
+  Utils.decode_or_raise metadata_of_yaml yaml
+
+let proficiency_list_of_string_list =
+  List.map (fun x ->
+      match Ood.Meta.Proficiency.of_string x with
+      | Ok x ->
+        x
+      | Error (`Msg err) ->
+        raise (Exn.Decode_error err))
+
+let all () =
+  Utils.map_files
+    (fun content ->
+      let metadata, body = Utils.extract_metadata_body content in
+      let metadata = decode_metadata metadata in
+      let body = Omd.of_string body |> Omd.to_html in
+      { title = metadata.title
+      ; description = metadata.description
+      ; date = metadata.date
+      ; tags = metadata.tags
+      ; users = proficiency_list_of_string_list metadata.users
+      ; body
+      })
+    "tutorials/en/*.md"
+
+let id_of_t (t : t) = Utils.slugify t.title
+
+let get_by_id id =
+  all () |> List.find_opt (fun success_story -> id_of_t success_story = id)
+
+let filter_by_tag ~tag tutorials =
+  List.filter (fun (x : t) -> List.mem tag x.tags) tutorials

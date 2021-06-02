@@ -4,6 +4,8 @@ let extract_metadata_body s =
   match Str.split (Str.regexp "---") s with
   | [ metadata; body ] ->
     metadata, String.trim body
+  | metadata :: splitted_body ->
+    metadata, String.trim (String.concat "---" splitted_body)
   | _ ->
     Logs.app (fun m -> m "%s" s);
     raise (Exn.Decode_error "expected metadata at the top of the file")
@@ -16,6 +18,8 @@ let read_from_dir dir =
   Data.file_list
   |> List.filter_map (fun x ->
          if String.prefix x len = dir then
+           Data.read x
+         else if Glob.matches_glob ~glob:dir x then
            Data.read x
          else
            None)

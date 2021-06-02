@@ -47,6 +47,12 @@
   (run %{bin:dream_eml} %{deps} --workspace %{workspace_root})))
 
 (rule
+ (targets tutorial_template.ml)
+ (deps tutorial_template.eml)
+ (action
+  (run %{bin:dream_eml} %{deps} --workspace %{workspace_root})))
+
+(rule
  (targets videos_template.ml)
  (deps videos_template.eml)
  (action
