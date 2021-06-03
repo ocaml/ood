@@ -30,9 +30,9 @@ let videos _req =
   |> Dream.html
 
 let tutorial req =
-  let id = Dream.param "id" req in
+  let slug = Dream.param "id" req in
   let tutorials = Ood_preview.Tutorial.all () in
-  match Ood_preview.Tutorial.get_by_id id with
+  match Ood_preview.Tutorial.get_by_slug slug with
   | Some tutorial ->
     Layout_template.render
       ~title:tutorial.Ood_preview.Tutorial.title
@@ -43,5 +43,5 @@ let tutorial req =
 
 let tutorials req =
   let first = Ood_preview.Tutorial.all () |> List.hd in
-  let id = Ood_preview.Tutorial.id_of_t first in
-  Dream.redirect req ("/tutorials/" ^ id)
+  let slug = Ood_preview.Tutorial.slug first in
+  Dream.redirect req ("/tutorials/" ^ slug)

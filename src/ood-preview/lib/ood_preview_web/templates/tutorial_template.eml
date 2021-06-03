@@ -1,7 +1,7 @@
 let render_tutorial_link (tutorial : Ood_preview.Tutorial.t) =
   let open Ood_preview.Tutorial in
-  let id = id_of_t tutorial in
-  let href = "/tutorials/" ^ id in
+  let slug = slug tutorial in
+  let href = "/tutorials/" ^ slug in
   <a href=<%s href %>
     class="group flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50">
     <span class="truncate">

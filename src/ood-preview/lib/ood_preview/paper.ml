@@ -24,6 +24,6 @@ let all () =
   let content = Data.read "papers.yml" |> Option.get in
   decode content
 
-let id_of_t (t : t) = Utils.slugify t.title
+let slug (t : t) = Utils.slugify t.title
 
-let get_by_id id = all () |> List.find_opt (fun paper -> id_of_t paper = id)
+let get_by_slug id = all () |> List.find_opt (fun paper -> slug paper = id)

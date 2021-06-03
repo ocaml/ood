@@ -45,10 +45,10 @@ let all () =
       })
     "tutorials/en/*.md"
 
-let id_of_t (t : t) = Utils.slugify t.title
+let slug (t : t) = Utils.slugify t.title
 
-let get_by_id id =
-  all () |> List.find_opt (fun success_story -> id_of_t success_story = id)
+let get_by_slug id =
+  all () |> List.find_opt (fun success_story -> slug success_story = id)
 
 let filter_by_tag ~tag tutorials =
   List.filter (fun (x : t) -> List.mem tag x.tags) tutorials
