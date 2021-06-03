@@ -1,14 +1,24 @@
 open Import
 
 let extract_metadata_body s =
-  match Str.split (Str.regexp "---") s with
-  | [ metadata; body ] ->
-    metadata, String.trim body
-  | metadata :: splitted_body ->
-    metadata, String.trim (String.concat "---" splitted_body)
-  | _ ->
-    Logs.app (fun m -> m "%s" s);
+  let sep = "---\n" in
+  let win_sep = "---\r\n" in
+  match String.cut ~on:sep s, String.cut ~on:win_sep s with
+  | None, None ->
     raise (Exn.Decode_error "expected metadata at the top of the file")
+  | Some (pre, post), _ | _, Some (pre, post) ->
+    if String.length pre = 0 then
+      match String.cut ~on:sep post, String.cut ~on:win_sep post with
+      | None, None ->
+        raise (Exn.Decode_error "expected metadata at the top of the file")
+      | Some (yaml, body), _ | _, Some (yaml, body) ->
+        (match Yaml.of_string yaml with
+        | Ok yaml ->
+          yaml, body
+        | Error (`Msg err) ->
+          raise (Exn.Decode_error err))
+    else
+      raise (Exn.Decode_error "expected metadata at the top of the file")
 
 let decode_or_raise f x =
   match f x with Ok x -> x | Error (`Msg err) -> raise (Exn.Decode_error err)

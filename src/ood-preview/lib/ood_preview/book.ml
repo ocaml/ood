@@ -20,15 +20,11 @@ type t =
   ; body : string
   }
 
-let decode_metadata s =
-  let yaml = Utils.decode_or_raise Yaml.of_string s in
-  Utils.decode_or_raise metadata_of_yaml yaml
-
 let all () =
   Utils.map_files
     (fun content ->
       let metadata, body = Utils.extract_metadata_body content in
-      let metadata = decode_metadata metadata in
+      let metadata = Utils.decode_or_raise metadata_of_yaml metadata in
       let body = Omd.of_string body |> Omd.to_html in
       { title = metadata.title
       ; description = metadata.description
