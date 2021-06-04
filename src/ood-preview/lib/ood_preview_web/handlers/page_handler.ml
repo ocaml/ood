@@ -45,3 +45,23 @@ let tutorials req =
   let first = Ood_preview.Tutorial.all () |> List.hd in
   let slug = Ood_preview.Tutorial.slug first in
   Dream.redirect req ("/tutorials/" ^ slug)
+
+let problems _req =
+  let videos = Ood_preview.Problem.all () in
+  Layout_template.render ~title:"99 Problems" (Problems_template.render videos)
+  |> Dream.html
+
+let html =
+  {|
+<html>
+  <head>
+  </head>
+  <body>
+    <div :class="toto" class="titi"></div>
+  </body>
+</html>
+|}
+
+let test1 _req = Dream.html html
+
+let test2 _req = Dream.respond html

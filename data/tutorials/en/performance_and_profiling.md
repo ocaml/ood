@@ -548,7 +548,7 @@ this at run time however.
 Floats are, by default, boxed (allocated on the heap). Save this as
 `float.ml` and compile it with `ocamlopt -S float.ml -o float`:
 
-```ocamltop
+```ocaml
 print_float 3.0
 ```
 The number is not passed directly to `string_of_float` in the `%eax`

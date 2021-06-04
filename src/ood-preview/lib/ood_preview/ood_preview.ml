@@ -6,3 +6,4 @@ module Event = Event
 module Video = Video
 module Success_story = Success_story
 module Tutorial = Tutorial
+module Problem = Problem

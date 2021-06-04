@@ -17,5 +17,8 @@ let render ~title inner =
       <main class="bg-graylight">
         <%s! inner %>
       </main>
+      <script>
+        <%s! Dream_livereload.default_script () %>
+      </script>
     </body>
   </html>

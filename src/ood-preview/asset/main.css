@@ -1302,6 +1302,18 @@ select {
       .ml-4 {
 	margin-left: 1rem;
 }
+      .mb-8 {
+	margin-bottom: 2rem;
+}
+      .ml-auto {
+	margin-left: auto;
+}
+      .ml-0\.5 {
+	margin-left: 0.125rem;
+}
+      .ml-0 {
+	margin-left: 0px;
+}
       .mt-8 {
 	margin-top: 2rem;
 }
@@ -1371,14 +1383,17 @@ select {
       .max-w-xs {
 	max-width: 20rem;
 }
+      .max-w-full {
+	max-width: 100%;
+}
       .max-w-3xl {
 	max-width: 48rem;
 }
       .max-w-2xl {
 	max-width: 42rem;
 }
-      .max-w-full {
-	max-width: 100%;
+      .flex-none {
+	flex: none;
 }
       .flex-shrink-0 {
 	flex-shrink: 0;
@@ -1484,6 +1499,9 @@ select {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
+      .whitespace-nowrap {
+	white-space: nowrap;
+}
       .rounded-lg {
 	border-radius: 0.5rem;
 }
@@ -1527,6 +1545,10 @@ select {
 	--tw-bg-opacity: 1;
 	background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
 }
+      .bg-gray-100 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
       .bg-black {
 	--tw-bg-opacity: 1;
 	background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
@@ -1539,6 +1561,18 @@ select {
 }
       .p-2 {
 	padding: 0.5rem;
+}
+      .p-0\.5 {
+	padding: 0.125rem;
+}
+      .p-0 {
+	padding: 0px;
+}
+      .p-1\.5 {
+	padding: 0.375rem;
+}
+      .p-1 {
+	padding: 0.25rem;
 }
       .px-4 {
 	padding-left: 1rem;
@@ -1580,19 +1614,22 @@ select {
 	padding-top: 0.75rem;
 	padding-bottom: 0.75rem;
 }
-      .px-3 {
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
       .py-5 {
 	padding-top: 1.25rem;
 	padding-bottom: 1.25rem;
+}
+      .px-3 {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
 }
       .pt-5 {
 	padding-top: 1.25rem;
 }
       .pb-6 {
 	padding-bottom: 1.5rem;
+}
+      .pl-4 {
+	padding-left: 1rem;
 }
       .pb-8 {
 	padding-bottom: 2rem;
@@ -1692,6 +1729,10 @@ select {
 	--tw-text-opacity: 1;
 	color: rgba(6, 95, 70, var(--tw-text-opacity));
 }
+      .text-orangedark {
+	--tw-text-opacity: 1;
+	color: rgba(237, 113, 9, var(--tw-text-opacity));
+}
       .antialiased {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -1708,6 +1749,10 @@ select {
 }
       .shadow {
 	--tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+      .shadow-sm {
+	--tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
       .ring-1 {
@@ -1752,6 +1797,10 @@ select {
 	--tw-bg-opacity: 1;
 	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
+      .hover\:bg-gray-200:hover {
+	--tw-bg-opacity: 1;
+	background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
       .hover\:text-gray-900:hover {
 	--tw-text-opacity: 1;
 	color: rgba(17, 24, 39, var(--tw-text-opacity));
@@ -1779,9 +1828,28 @@ select {
       .focus\:ring-offset-2:focus {
 	--tw-ring-offset-width: 2px;
 }
+      .focus-visible\:ring-2:focus-visible {
+	--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+	--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+	box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+      .focus-visible\:ring-orangedark:focus-visible {
+	--tw-ring-opacity: 1;
+	--tw-ring-color: rgba(237, 113, 9, var(--tw-ring-opacity));
+}
+      .focus-visible\:ring-offset-2:focus-visible {
+	--tw-ring-offset-width: 2px;
+}
+      .focus-visible\:ring-offset-gray-100:focus-visible {
+	--tw-ring-offset-color: #f3f4f6;
+}
       .group:hover .group-hover\:text-gray-500 {
 	--tw-text-opacity: 1;
 	color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+      .group:hover .group-hover\:text-gray-900 {
+	--tw-text-opacity: 1;
+	color: rgba(17, 24, 39, var(--tw-text-opacity));
 }
       @media (min-width: 640px) {
 
@@ -1912,6 +1980,10 @@ select {
 		padding-right: 0px;
 	}
 
+	.sm\:pl-6 {
+		padding-left: 1.5rem;
+	}
+
 	.sm\:text-4xl {
 		font-size: 2.25rem;
 		line-height: 2.5rem;
@@ -1960,6 +2032,17 @@ select {
 }
       @media (min-width: 1024px) {
 
+	.lg\:not-sr-only {
+		position: static;
+		width: auto;
+		height: auto;
+		padding: 0;
+		margin: 0;
+		overflow: visible;
+		clip: auto;
+		white-space: normal;
+	}
+
 	.lg\:col-span-1 {
 		grid-column: span 1 / span 1;
 	}
@@ -1975,6 +2058,10 @@ select {
 	.lg\:-mx-8 {
 		margin-left: -2rem;
 		margin-right: -2rem;
+	}
+
+	.lg\:mr-2 {
+		margin-right: 0.5rem;
 	}
 
 	.lg\:max-w-7xl {
@@ -2001,6 +2088,22 @@ select {
 	.lg\:py-32 {
 		padding-top: 8rem;
 		padding-bottom: 8rem;
+	}
+
+	.lg\:pl-2\.5 {
+		padding-left: 0.625rem;
+	}
+
+	.lg\:pr-3\.5 {
+		padding-right: 0.875rem;
+	}
+
+	.lg\:pl-2 {
+		padding-left: 0.5rem;
+	}
+
+	.lg\:pr-3 {
+		padding-right: 0.75rem;
 	}
 
 	.lg\:text-6xl {

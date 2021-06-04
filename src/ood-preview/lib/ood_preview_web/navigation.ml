@@ -25,6 +25,7 @@ let t =
         ; { label = "Events"; url = "/events"; icon = ""; text = "" }
         ; { label = "Videos"; url = "/videos"; icon = ""; text = "" }
         ; { label = "Tutorials"; url = "/tutorials"; icon = ""; text = "" }
+        ; { label = "99 Problems"; url = "/problems"; icon = ""; text = "" }
         ]
     }
   ]
