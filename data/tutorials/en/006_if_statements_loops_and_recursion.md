@@ -1136,7 +1136,7 @@ The basics of arrays are simple:
 ```ocaml
 # let a = Array.create 10 0
 Line 1, characters 9-21:
-Alert deprecated: Stdlib.Array.create
+Alert deprecate: Stdlib.Array.create
 Use Array.make instead.
 val a : int array = [|0; 0; 0; 0; 0; 0; 0; 0; 0; 0|]
 # for i = 0 to Array.length a - 1 do
