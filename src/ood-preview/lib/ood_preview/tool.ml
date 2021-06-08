@@ -41,9 +41,7 @@ let decode s =
             | Error (`Msg err) ->
               raise (Exn.Decode_error err)
           in
-          let description = metadata.description in
-          (* let description = Omd.of_string metadata.description |> Omd.to_html
-             in *)
+          let description = Omd.of_string metadata.description |> Omd.to_html in
           ({ name = metadata.name
            ; source = metadata.source
            ; license = metadata.license

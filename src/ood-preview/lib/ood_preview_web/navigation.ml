@@ -30,7 +30,7 @@ let t =
         ; { label = "Events"; url = "/events"; icon = ""; text = "" }
         ; { label = "Videos"; url = "/videos"; icon = ""; text = "" }
         ; { label = "Tutorials"; url = "/tutorials"; icon = ""; text = "" }
-        ; { label = "Platform"; url = "/platform"; icon = ""; text = "" }
+        ; { label = "Platform"; url = "/tools"; icon = ""; text = "" }
         ]
     }
   ]
