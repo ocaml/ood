@@ -9,6 +9,9 @@ let render ~title inner =
       <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       <script src="https://tailwindui.com/js/components-v2.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+      <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.0.1/styles/default.min.css">
+      <script src="https://unpkg.com/@highlightjs/cdn-assets@11.0.1/highlight.min.js"></script>
+      <script src="https://unpkg.com/@highlightjs/cdn-assets@11.0.1/languages/ocaml.min.js"></script>
       <title><%s title %></title>
     </head>
 
@@ -19,6 +22,9 @@ let render ~title inner =
       </main>
       <script>
         <%s! Dream_livereload.default_script () %>
+      </script>
+      <script>
+        hljs.highlightAll();
       </script>
     </body>
   </html>
