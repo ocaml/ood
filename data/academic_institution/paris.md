@@ -4,7 +4,7 @@ description: >
  Paris Diderot University, also known as Paris 7, was a French university located in Paris, France. It was one of the seven universities of the Paris public higher education academy. 
 url: "https://u-paris.fr/en/"
 continent: Europe
-courses:
+course:
     - name: Advanced Functional Programming 
       accronym: PFAV
       online_resource: "https://www.dicosmo.org/CourseNotes/pfav/"

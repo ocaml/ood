@@ -5,7 +5,7 @@ description: >
 url: "https://www.rice.edu/"
 logo: academic_institution/rice.jpg
 continent: North America
-courses:
+course:
     - name: Principles of Programming Languages
       accronym: COMP 311
       online_resource: "https://www.cs.rice.edu/~javaplt/311/info.html"

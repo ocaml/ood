@@ -5,7 +5,7 @@ description: >
 url: "https://www.princeton.edu/"
 logo: academic_institution/princeton.png
 continent: North America
-courses:
+course:
     - name: Functional Programming 
       accronym: COS 326
       online_resource: "https://www.cs.princeton.edu/courses/archive/fall14/cos326//"

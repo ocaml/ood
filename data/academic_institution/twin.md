@@ -4,7 +4,7 @@ description: >
  The University of Minnesota, Twin Cities is a public land-grant research university in the Twin Cities of Minneapolis and Saint Paul, Minnesota. 
 url: "https://twin-cities.umn.edu/"
 continent: North America
-courses:
+course:
     - name: Advanced Programming Principles 
       accronym: CSCI 2041
       online_resource: "https://www-users.cs.umn.edu/~kauffman/2041/syllabus.html"

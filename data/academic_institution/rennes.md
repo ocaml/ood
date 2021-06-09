@@ -5,7 +5,7 @@ description: >
 url: "https://international.univ-rennes1.fr/en/welcome-universite-de-rennes-1"
 logo: academic_institution/reness.png
 continent: Europe
-courses:
+course:
     - name: Compilation 
       accronym: COMP 
     - name: Semantics 

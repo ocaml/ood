@@ -5,7 +5,7 @@ description: >
 url: "https://www.caltech.edu/"
 logo: academic_institution/caltech.png
 continent: North America
-courses:
+course:
     - name: Fundamentals of Computer Programming
       online_resource: "http://users.cms.caltech.edu/~mvanier/"
 location:

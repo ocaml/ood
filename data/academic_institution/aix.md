@@ -5,7 +5,7 @@ description: >
 url: "https://www.univ-amu.fr/en"
 logo: academic_institution/aix.jpg
 continent: Europe
-courses:
+course:
     - name: Functional Programming   
 location:
      lat: 43.3048

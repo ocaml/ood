@@ -5,7 +5,7 @@ description: >
 url: "https://www.ubi.pt/en/"
 logo: academic_institution/beira.jpg
 continent: Europe
-courses:
+course:
     - name: Certified Programming
       online_resource: "https://www.di.ubi.pt/~desousa/PC/pc.html"
     - name: Computation Theory

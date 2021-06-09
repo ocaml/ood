@@ -310,7 +310,7 @@ module Academic_institution = struct
         `String (String.make ~required:false ~label:"Logo" ~name:"logo" ());
         `String
           (String.make ~required:true ~label:"Continent" ~name:"continent" ());
-        `List (Lst.make ~required:true ~label:"Course" ~name:"courses" ());
+        `List (Lst.make ~required:true ~label:"Course" ~name:"course" ());
         `List (Lst.make ~required:false ~label:"Location" ~name:"location" ());
         `Markdown Markdown.(make ~label:"Body" ~name:"body" ());
       ]

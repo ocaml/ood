@@ -5,7 +5,7 @@ description: >
 url: "https://uni.wroc.pl/en/"
 logo: academic_institution/wroclaw.jpg
 continent: Europe
-courses:
+course:
     - name: Functional Programming 
       online_resource: "https://ii.uni.wroc.pl/~lukstafi/pmwiki/index.php?n=Functional.Functional"
 location:

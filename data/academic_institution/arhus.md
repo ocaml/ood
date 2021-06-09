@@ -5,7 +5,7 @@ description: >
 url: "https://international.au.dk/"
 logo: academic_institution/arhus.png
 continent: Europe
-courses:
+course:
     - name: The compilation course (along with Java)
       online_resource: "https://kursuskatalog.au.dk/en/course/100489/Compilation"
 location:

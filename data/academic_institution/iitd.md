@@ -5,7 +5,7 @@ description: >
 url: "https://home.iitd.ac.in/"
 logo: academic_institution/iitd.png
 continent: Asia
-courses:
+course:
     - name: Introduction to Computers and Programming (along with Pascal and Java)
       accronym: CSL 101
       online_resource: "https://www.cse.iitd.ac.in/~ssen/csl101/details.html"

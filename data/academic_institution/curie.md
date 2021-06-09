@@ -5,7 +5,7 @@ description: >
 url: "https://www.sorbonne-universite.fr/"
 logo: academic_institution/curie.jpg
 continent: Europe
-courses:
+course:
     - name: Types and static analysis 
       accronym: 5I555
       online_resource: "https://www-apr.lip6.fr/~chaillou/Public/enseignement/2014-2015/tas/"

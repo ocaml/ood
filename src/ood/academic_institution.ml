@@ -12,6 +12,6 @@ type t = {
   url : string;
   logo : string option;
   continent : string;
-  courses : course list;
+  course : course list;
   location : location option;
 }

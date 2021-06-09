@@ -5,7 +5,7 @@ description: >
 url: "https://www.ucla.edu/"
 logo: academic_institution/ucla.jpg
 continent: North America
-courses:
+course:
     - name: Programming Languages (along with Python and Java)
       accronym: CS 131
       online_resource: "https://web.cs.ucla.edu/classes/winter18/cs131/"

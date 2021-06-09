@@ -5,7 +5,7 @@ description: >
 url: "https://www.upenn.edu/"
 logo: academic_institution/penn.png
 continent: North America
-courses:
+course:
     - name: Compilers 
       accronym: CIS341
       online_resource: "https://www.cis.upenn.edu/~cis341/current/"

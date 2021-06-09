@@ -5,7 +5,7 @@ description: >
 url: "https://www.columbia.edu/"
 logo: academic_institution/columbia.png
 continent: North America
-courses:
+course:
     - name: Programming Languages and Translators
       online_resource: "http://www1.cs.columbia.edu/~sedwards/classes/2014/w4115-fall/index.html"
 location:

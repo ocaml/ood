@@ -5,7 +5,7 @@ description: >
 url: "https://illinois.edu/"
 logo: academic_institution/illinois.jpeg
 continent: North America
-courses:
+course:
     - name: Programming Languages and Compilers 
       accronym: CS 421
       online_resource: "https://courses.engr.illinois.edu/cs421/fa2014/"
