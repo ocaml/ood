@@ -1,0 +1,42 @@
+sources:
+  - name: Tarides
+    url: https://tarides.com/feed.xml
+    tag: tarides
+    articles:
+      - https://tarides.com/blog/2021-03-04-florence-and-beyond-the-future-of-tezos-storage.html
+      - https://tarides.com/blog/2021-01-26-recent-and-upcoming-changes-to-merlin.html
+      - https://tarides.com/blog/2020-09-24-building-portable-user-interfaces-with-nottui-and-lwd.html
+      - https://tarides.com/blog/2020-09-17-tarides-is-now-a-sponsor-of-the-ocaml-software-foundation.html
+      - https://tarides.com/blog/2020-09-08-irmin-september-2020-update.html
+      - https://tarides.com/blog/2020-09-01-introducing-irmin-pack.html
+      - https://tarides.com/blog/2020-08-03-fuzzing-ocamlformat-with-afl-and-crowbar.html
+      - https://tarides.com/blog/2020-04-20-the-future-of-tezos-on-mirageos.html
+      - https://tarides.com/blog/2019-11-27-introducing-the-graphql-api-for-irmin-2-0.html
+      - https://tarides.com/blog/2019-11-21-irmin-v2.html
+      - https://tarides.com/blog/2019-09-25-mr-mime-parse-and-generate-emails.html
+      - https://tarides.com/blog/2019-09-13-decompress-experiences-with-ocaml-optimization.html
+      - https://tarides.com/blog/2019-09-04-an-introduction-to-fuzzing-ocaml-with-afl-crowbar-and-bun.html
+      - https://tarides.com/blog/2019-08-26-decompress-the-new-decompress-api.html
+      - https://tarides.com/blog/2019-06-27-release-of-ocamlformat-0-10.html
+      - https://tarides.com/blog/2019-05-13-on-the-road-to-irmin-v2.html
+      - https://tarides.com/blog/2019-05-09-an-introduction-to-ocaml-ppx-ecosystem.html
+      - https://tarides.com/blog/2019-04-10-dune-1-9-0.html
+      - https://tarides.com/blog/2019-03-29-release-of-ocamlformat-0-9.html
+      - https://tarides.com/blog/2019-02-08-release-of-base64.html
+      - https://tarides.com/blog.html#2019-01-03-how-configurator-reads-c-constants
+      - https://tarides.com/blog.html#2018-12-06-mirageos-towards-a-smaller-and-safer-os
+      - https://tarides.com/blog/2018-10-19-ocaml-git-2-0.html
+      - https://tarides.com/blog/2018-10-17-ocamlformat-0-8.html
+      - https://tarides.com/blog/2018-09-06-dune-1-2-0.html
+      - https://tarides.com/blog.html#2018-05-18-irmin-usability-enhancements
+      - https://tarides.com/blog.html#2018-02-14-an-architecture-for-interspatial-communication
+
+  - name: Jane Street
+    url: https://blog.janestreet.com/feed.xml
+    tag: janestreet
+    articles: []
+
+  - name: Ahrefs
+    url: https://medium.com/feed/ahrefs/tagged/ocaml
+    tag: ahrefs
+    articles: []
