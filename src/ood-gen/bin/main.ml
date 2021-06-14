@@ -11,6 +11,7 @@ let term_templates =
     ("tool", Ood_gen.Tool.template);
     ("tutorial", Ood_gen.Tutorial.template);
     ("video", Ood_gen.Video.template);
+    ("workflow", Ood_gen.Workflow.template);
   ]
 
 let cmds =

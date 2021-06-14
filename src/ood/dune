@@ -102,3 +102,13 @@
   (with-stdout-to
    %{targets}
    (run %{deps} video))))
+
+(rule
+ (deps ../ood-gen/bin/main.exe)
+ (targets workflow.ml)
+ (mode
+  (promote (until-clean)))
+ (action
+  (with-stdout-to
+   %{targets}
+   (run %{deps} workflow))))

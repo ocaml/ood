@@ -25,6 +25,8 @@ let routes =
   ; Dream.get "/tools" Page_handler.tools
   ; Dream.get "/tutorials" Page_handler.tutorials
   ; Dream.get "/tutorials/:id" Page_handler.tutorial
+  ; Dream.get "/workflows" Page_handler.workflows
+  ; Dream.get "/workflows/:id" Page_handler.workflow
   ; Dream.get "/assets/**" (Dream.static ~loader "")
   ; Dream.get "/media/**" (Dream.static ~loader:media_loader "")
   ]

@@ -154,6 +154,16 @@ module Tutorial : sig
   val all : t list
 end
 
+module Workflow : sig
+  type t = {
+    title : string;
+    body_md : string;
+    body_html : string;
+  }
+
+  val all : t list
+end
+
 module Video : sig
   type kind = [ `Conference | `Mooc | `Lecture ]
 
