@@ -90,5 +90,4 @@ let tools _req =
 
 let news _req =
   let news = Ood.News.all in
-  Layout_template.render ~title:"News" (News_template.render news)
-  |> Dream.html
+  Layout_template.render ~title:"News" (News_template.render news) |> Dream.html
