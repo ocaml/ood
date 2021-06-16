@@ -1,5 +1,7 @@
 ---
 title: ! 'Irmin: September 2020 update'
+description: ! "This post will survey the latest design decisions and performance
+  improvements\nmade to irmin-pack, the Irmin storage backend used by\nTezos\u2026"
 url: https://tarides.com/blog/2020-09-08-irmin-september-2020-update
 date: 2020-09-08T00:00:00-00:00
 preview_image: https://tarides.com/static/eb48bbf490e4011a9fa8806a56d4098b/2244e/tree_autumn.jpg

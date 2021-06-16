@@ -1,5 +1,8 @@
 ---
 title: Centralizing distributed version control, revisited
+description: 7 years ago, I wrote a blogpostabout how we at Jane Street were using
+  our distributed version control system(hg, though the story would be the same for
+  git) ...
 url: https://blog.janestreet.com/centralizing-distributed-version-control-revisited/
 date: 2015-03-04T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png

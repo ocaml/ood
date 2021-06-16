@@ -1,5 +1,7 @@
 ---
 title: Ironing out your development style
+description: People seem to enjoy talking about programming methodologies. Theygive
+  them cute names, likeeXtreme programming,Agile, andScrum; runconferences and buildcomm...
 url: https://blog.janestreet.com/ironing-out-your-development-style/
 date: 2017-08-24T00:00:00-00:00
 preview_image: https://blog.janestreet.com/ironing-out-your-development-style/story.jpg

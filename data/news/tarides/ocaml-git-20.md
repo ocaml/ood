@@ -1,5 +1,7 @@
 ---
 title: ocaml-git 2.0
+description: ! "I'm very happy to announce a new major release of ocaml-git (2.0).\nThis
+  release is a 2-year effort to get a revamped\nstreaming API offering\u2026"
 url: https://tarides.com/blog/2018-10-19-ocaml-git-2-0
 date: 2018-10-19T00:00:00-00:00
 preview_image: https://tarides.com/static/1d805022c72839f1abe63b28f225fd32/2244e/mesh.jpg

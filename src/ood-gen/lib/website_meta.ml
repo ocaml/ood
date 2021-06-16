@@ -35,8 +35,22 @@ let twitter_image html =
     |> Option.some
   with Failure _ -> None
 
-let preview_of_url url =
-  let html = get_sync url |> Result.get_ok in
+let og_description html =
+  let open Soup in
+  let soup = parse html in
+  try
+    soup $ "meta[property=og:description]" |> R.attribute "content"
+    |> Option.some
+  with Failure _ -> None
+
+let description html =
+  let open Soup in
+  let soup = parse html in
+  try
+    soup $ "meta[property=description]" |> R.attribute "content" |> Option.some
+  with Failure _ -> None
+
+let preview_image html =
   let preview_image =
     match og_image html with
     | None -> (
@@ -49,3 +63,18 @@ let preview_of_url url =
   | Some "" -> None
   | Some x -> Some x
   | None -> None
+
+let description html =
+  let preview_image =
+    match og_description html with None -> description html | Some x -> Some x
+  in
+  match Option.map String.trim preview_image with
+  | Some "" -> None
+  | Some x -> Some x
+  | None -> None
+
+type t = { image : string option; description : string option }
+
+let all url =
+  let html = get_sync url |> Result.get_ok in
+  { image = preview_image html; description = description html }

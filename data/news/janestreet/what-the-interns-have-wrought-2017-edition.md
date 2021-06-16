@@ -1,5 +1,8 @@
 ---
 title: What the interns have wrought, 2017 edition
+description: ! "Intern season is coming to a close, and it\u2019s a nice time to look
+  back(as I\u2019ve done inpreviousyears) and review some of whatthe interns did while
+  they were he..."
 url: https://blog.janestreet.com/what-the-interns-have-wrought-2017/
 date: 2017-08-14T00:00:00-00:00
 preview_image: https://blog.janestreet.com/what-the-interns-have-wrought-2017/what_interns_wrought.png

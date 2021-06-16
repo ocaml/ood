@@ -1,5 +1,7 @@
 ---
 title: Introducing the GraphQL API for Irmin 2.0
+description: ! "With the release of Irmin 2.0.0, we are happy to announce a new package
+  - irmin-graphql, which can be used to serve data from Irmin over\u2026"
 url: https://tarides.com/blog/2019-11-27-introducing-the-graphql-api-for-irmin-2-0
 date: 2019-11-27T00:00:00-00:00
 preview_image: https://tarides.com/static/774a33033c774c2c0c5b638f61694621/497c6/irmin-graphql.png

@@ -1,5 +1,8 @@
 ---
 title: How Jane Street Does Code Review (Jane Street Tech Talk)
+description: ! "It\u2019s time for our nextJane Street Tech Talk. Whenwe\u2019ve solicited
+  suggestions for topics, one common request has been totalk about our internal development
+  pr..."
 url: https://blog.janestreet.com/jane-street-tech-talk-how-jane-street-does-code-review/
 date: 2017-10-29T00:00:00-00:00
 preview_image: https://blog.janestreet.com/jane-street-tech-talk-how-jane-street-does-code-review/image.png

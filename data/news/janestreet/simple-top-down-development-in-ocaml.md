@@ -1,5 +1,7 @@
 ---
 title: Simple top-down development in OCaml
+description: Often when writing a new module, I want to write the interface first
+  and savethe implementation for later. This lets me use the module as a black box,extendi...
 url: https://blog.janestreet.com/simple-top-down-development-in-ocaml/
 date: 2014-07-18T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png

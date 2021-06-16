@@ -1,5 +1,7 @@
 ---
 title: OCamlFormat 0.8
+description: ! "We are proud to announce the release of OCamlFormat 0.8 (available
+  on opam). To ease the transition from the previous 0.7 release here are\u2026"
 url: https://tarides.com/blog/2018-10-17-ocamlformat-0-8
 date: 2018-10-17T00:00:00-00:00
 preview_image: https://tarides.com/static/9b70dfbba6abba837b47f644a75b33dc/2244e/code_black1.jpg

@@ -1,5 +1,7 @@
 ---
 title: ! 'Florence and beyond: the future of Tezos storage'
+description: ! "In collaboration with Nomadic Labs, Marigold and DaiLambda, we're
+  happy to\nannounce the completion of the next Tezos protocol proposal\u2026"
 url: https://tarides.com/blog/2021-03-04-florence-and-beyond-the-future-of-tezos-storage
 date: 2021-03-04T00:00:00-00:00
 preview_image: https://tarides.com/static/d81c504dbb5172d29c2aa38512f1dfe3/2244e/florence.jpg

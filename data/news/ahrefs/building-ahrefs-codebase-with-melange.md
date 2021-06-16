@@ -1,5 +1,7 @@
 ---
 title: Building Ahrefs codebase with Melange
+description: What we learnt after experimenting with Melange, a fork of ReScript with
+  a strong focus on keeping compatibility with OCaml.
 url: https://tech.ahrefs.com/building-ahrefs-codebase-with-melange-9f881f6d022b?source=rss----303662d88bae--ocaml
 date: 2021-05-18T15:24:20-00:00
 preview_image: https://miro.medium.com/max/1200/1*tYLUO4FDmJ6bzlsPp14LdQ.jpeg

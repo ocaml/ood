@@ -1,5 +1,7 @@
 ---
 title: Dune 1.2.0
+description: ! "After a tiny but important patch release as 1.1.1, the dune team is
+  thrilled to\nannounce the release of dune 1.2.0! Here are some highlights\u2026"
 url: https://tarides.com/blog/2018-09-06-dune-1-2-0
 date: 2018-09-06T00:00:00-00:00
 preview_image: https://tarides.com/static/98e7b693b372846010bfcd8d54746146/2244e/sand_dune1.jpg

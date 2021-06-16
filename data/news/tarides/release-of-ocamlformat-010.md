@@ -1,5 +1,7 @@
 ---
 title: Release of OCamlFormat 0.10
+description: ! "We are pleased to announce the release of OCamlFormat 0.10 (available
+  on opam). There have been numerous changes since the last release, so\u2026"
 url: https://tarides.com/blog/2019-06-27-release-of-ocamlformat-0-10
 date: 2019-06-27T00:00:00-00:00
 preview_image: https://tarides.com/static/dd98e4198ca9305bbbd638c382587e5b/2244e/keyboard.jpg

@@ -1,5 +1,8 @@
 ---
 title: Does batch size matter?
+description: ! "This post is aimed at readers who are already familiar withstochastic
+  gradient descent(SGD) and terms like \u201Cbatch size\u201D.  For an introduction
+  to theseideas, ..."
 url: https://blog.janestreet.com/does-batch-size-matter/
 date: 2017-10-31T00:00:00-00:00
 preview_image: https://blog.janestreet.com/does-batch-size-matter/batch-01.png

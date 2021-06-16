@@ -1,5 +1,8 @@
 ---
 title: ! "Making \u201Cnever break the build\u201D scale"
+description: ! "I just stumbled across a post fromearlier this year by Graydon Hoare,
+  of Rust fame.The post is about what he calls the \u201CNot Rocket Science Rule\u201D,
+  which says ..."
 url: https://blog.janestreet.com/making-never-break-the-build-scale/
 date: 2014-07-06T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png

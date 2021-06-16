@@ -1,5 +1,7 @@
 ---
 title: Getting started with atdgen and bucklescript
+description: ! "atdgen is a project to create types and data structures that can be
+  serialized to JSON. It is very convenient when communicating between\u2026"
 url: https://tech.ahrefs.com/getting-started-with-atdgen-and-bucklescript-1f3a14004081?source=rss----303662d88bae--ocaml
 date: 2018-09-12T02:53:58-00:00
 preview_image: 

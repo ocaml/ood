@@ -1,5 +1,8 @@
 ---
 title: Jane Street Tech Talk, Verifying Network Data Planes
+description: After a summer hiatus, the Jane Street Tech Talks series is back onfor
+  the fall! Last we left it, our very own Dominick LoBraicopresented on the evolution
+  of...
 url: https://blog.janestreet.com/jane-street-tech-talk-verifying-network-data-planes/
 date: 2017-09-26T00:00:00-00:00
 preview_image: https://blog.janestreet.com/jane-street-tech-talk-verifying-network-data-planes/tech-talk-nate-foster.png

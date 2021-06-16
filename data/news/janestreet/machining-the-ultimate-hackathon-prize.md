@@ -1,5 +1,8 @@
 ---
 title: Machining the ultimate hackathon prize
+description: ! "Jane Street is sponsoring this year\u2019s MakeMIThackathon, and we
+  wanted to create a prize forthe winners that would do justice to the maker spirit
+  of thecompet..."
 url: https://blog.janestreet.com/hackathon-keyboards/
 date: 2019-02-28T00:00:00-00:00
 preview_image: https://blog.janestreet.com/hackathon-keyboards/keyboard.jpg

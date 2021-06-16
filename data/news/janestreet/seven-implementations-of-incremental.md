@@ -1,5 +1,8 @@
 ---
 title: Seven Implementations of Incremental
+description: We finally got a decent recording of one of my favorite talks. This one
+  is aboutour Incremental library (which Iwrote about here), and in particular about
+  th...
 url: https://blog.janestreet.com/seven-implementations-of-incremental/
 date: 2016-03-09T00:00:00-00:00
 preview_image: https://blog.janestreet.com/seven-implementations-of-incremental/ron-photo.jpg

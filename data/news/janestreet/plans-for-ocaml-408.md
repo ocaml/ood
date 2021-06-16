@@ -1,5 +1,7 @@
 ---
 title: Plans for OCaml 4.08
+description: ! "With the external release of OCaml 4.07.0 imminent, we in Jane Street\u2019sTools
+  & Compilers group have been planning what we want to work on forinclusion in..."
 url: https://blog.janestreet.com/plans-for-ocaml-408/
 date: 2018-06-29T00:00:00-00:00
 preview_image: https://blog.janestreet.com/plans-for-ocaml-408/ocaml_release.jpg

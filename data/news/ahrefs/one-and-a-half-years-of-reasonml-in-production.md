@@ -1,5 +1,7 @@
 ---
 title: One and a half years of ReasonML in production
+description: ! "The first Reason application at Ahrefs went online on January 31,
+  2019. Since then, many more applications have been either rewritten in\u2026"
 url: https://tech.ahrefs.com/one-and-a-half-years-of-reasonml-in-production-2250cf5ba63b?source=rss----303662d88bae--ocaml
 date: 2020-07-26T15:19:31-00:00
 preview_image: https://miro.medium.com/max/1200/1*Nl5vYk_k-mC4j32XEjryHQ.jpeg

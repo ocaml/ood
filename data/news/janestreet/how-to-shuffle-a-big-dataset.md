@@ -1,5 +1,7 @@
 ---
 title: How to shuffle a big dataset
+description: At Jane Street, we often work with data that has a very lowsignal-to-noise
+  ratio, but fortunately we also have a lot of data.Where practitioners in many fiel...
 url: https://blog.janestreet.com/how-to-shuffle-a-big-dataset/
 date: 2018-09-26T00:00:00-00:00
 preview_image: https://blog.janestreet.com/how-to-shuffle-a-big-dataset/shuffle_zoom.png

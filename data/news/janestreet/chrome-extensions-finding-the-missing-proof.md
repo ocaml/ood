@@ -1,5 +1,8 @@
 ---
 title: ! 'Chrome extensions: Finding the missing proof'
+description: Web browsers have supported customplug-ins andextensions sincethe 1990s,
+  giving users the ability to add their own features andtools for improving workflow
+  o...
 url: https://blog.janestreet.com/chrome-extensions-finding-the-missing-proof/
 date: 2020-04-17T00:00:00-00:00
 preview_image: https://blog.janestreet.com/chrome-extensions-finding-the-missing-proof/magnifying-glass.png

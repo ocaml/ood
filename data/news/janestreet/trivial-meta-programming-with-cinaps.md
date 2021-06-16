@@ -1,5 +1,8 @@
 ---
 title: Trivial meta-programming with cinaps
+description: From now and then, I found myself having to write some mechanical and
+  repetitivecode. The usual solution for this is to write a code generator; for instance
+  ...
 url: https://blog.janestreet.com/trivial-meta-programming-with-cinaps/
 date: 2017-03-20T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png

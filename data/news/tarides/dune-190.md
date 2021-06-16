@@ -1,5 +1,7 @@
 ---
 title: Dune 1.9.0
+description: ! "Tarides is pleased to have contributed to the dune 1.9.0 release which\nintroduces
+  the concept of library variants. Thanks to this update\u2026"
 url: https://tarides.com/blog/2019-04-10-dune-1-9-0
 date: 2019-04-10T00:00:00-00:00
 preview_image: https://tarides.com/static/a7294df7159db3785da6121fc6ecadf8/2244e/sand_dune2.jpg

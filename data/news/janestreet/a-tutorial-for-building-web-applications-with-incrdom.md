@@ -1,5 +1,7 @@
 ---
 title: A tutorial for building web applications with Incr_dom
+description: ! "At Jane Street, our web UIs are built on top of an in-house frameworkcalled
+  Incr_dom, modeled inpart on React\u2019s virtualDOM. Rendering differentviews efficien..."
 url: https://blog.janestreet.com/a-tutorial-for-building-web-applications-with-incrdom/
 date: 2019-01-15T00:00:00-00:00
 preview_image: https://blog.janestreet.com/a-tutorial-for-building-web-applications-with-incrdom/incr_dom.png

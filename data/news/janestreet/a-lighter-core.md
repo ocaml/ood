@@ -1,5 +1,8 @@
 ---
 title: A lighter Core
+description: ! "We recently released a version of our open source libraries with a
+  muchanticipatedchange\u2013 Async_kernel, the heart of the Async concurrent programming
+  library..."
 url: https://blog.janestreet.com/a-lighter-core/
 date: 2015-03-21T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png

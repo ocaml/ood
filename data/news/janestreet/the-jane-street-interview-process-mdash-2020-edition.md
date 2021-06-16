@@ -1,5 +1,8 @@
 ---
 title: The Jane Street Interview Process &mdash; 2020 Edition
+description: ! "We\u2019re busy preparing for our software engineering fall hiringseason.
+  Over the years we\u2019vedone our best to make our interview process more transparent
+  tocandi..."
 url: https://blog.janestreet.com/jane-street-interview-process-2020/
 date: 2020-07-24T00:00:00-00:00
 preview_image: https://blog.janestreet.com/jane-street-interview-process-2020/ocaml_code.png

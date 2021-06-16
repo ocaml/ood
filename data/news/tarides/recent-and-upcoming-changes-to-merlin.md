@@ -1,5 +1,7 @@
 ---
 title: Recent and upcoming changes to Merlin
+description: ! "Merlin is a language server for the OCaml programming language; that
+  is, a daemon\nthat connects to your favourite text editor and provides\u2026"
 url: https://tarides.com/blog/2021-01-26-recent-and-upcoming-changes-to-merlin
 date: 2021-01-26T00:00:00-00:00
 preview_image: https://tarides.com/static/1d86af9747be51519d2c89b476b5b306/2244e/camelgicien.jpg

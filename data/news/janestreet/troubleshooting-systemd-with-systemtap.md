@@ -1,5 +1,7 @@
 ---
 title: Troubleshooting systemd with SystemTap
+description: When we set up a schedule on a computer, such as a list of commands torun
+  every day at particular times via Linux cronjobs, weexpect that schedule to execute...
 url: https://blog.janestreet.com/troubleshooting-systemd-with-systemtap/
 date: 2020-02-03T00:00:00-00:00
 preview_image: https://blog.janestreet.com/troubleshooting-systemd-with-systemtap/data-taps.jpg

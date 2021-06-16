@@ -10,6 +10,7 @@ type sources = { sources : source list } [@@deriving yaml]
 
 type metadata = {
   title : string;
+  description : string option;
   url : string;
   date : string;
   preview_image : string option;
@@ -84,8 +85,12 @@ let scrape () =
                 let oc =
                   open_out ("data/news/" ^ source.tag ^ "/" ^ slug ^ ".md")
                 in
-                let preview_image = Website_preview.preview_of_url url in
-                let metadata = { title; url; date; preview_image } in
+                let Website_meta.{ image; description; _ } =
+                  Website_meta.all url
+                in
+                let metadata =
+                  { title; url; date; preview_image = image; description }
+                in
                 let s = Format.asprintf "%a\n%s\n" pp_meta metadata content in
                 Printf.fprintf oc "%s" s;
                 close_out oc )
@@ -101,6 +106,7 @@ let scrape () =
 type t = {
   title : string;
   url : string;
+  description : string option;
   date : string;
   preview_image : string option;
   body_html : string;
@@ -114,6 +120,7 @@ let all () =
       let metadata = Utils.decode_or_raise metadata_of_yaml metadata in
       {
         title = metadata.title;
+        description = metadata.description;
         url = metadata.url;
         date = metadata.date;
         preview_image = metadata.preview_image;
@@ -125,12 +132,15 @@ let pp ppf v =
   Fmt.pf ppf
     {|
   { title = %S
+  ; description = %a
   ; url = %S
   ; date = %S
   ; preview_image = %a
   ; body_html = %S
   }|}
-    v.title v.url v.date
+    v.title
+    (Pp.option Pp.quoted_string)
+    v.description v.url v.date
     (Pp.option Pp.quoted_string)
     v.preview_image v.body_html
 
@@ -141,6 +151,7 @@ let template () =
     {|
 type t =
   { title : string
+  ; description : string option
   ; url : string
   ; date : string
   ; preview_image : string option

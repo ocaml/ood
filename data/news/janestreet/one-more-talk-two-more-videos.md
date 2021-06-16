@@ -1,5 +1,7 @@
 ---
 title: One more talk, two more videos
+description: ! "I\u2019m happy to announce our next public techtalk, called SevenImplementations
+  of Incremental, on Wednesday, April 5th, presented by yourstruly. You can registe..."
 url: https://blog.janestreet.com/one-more-talk-two-more-videos/
 date: 2017-03-15T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png

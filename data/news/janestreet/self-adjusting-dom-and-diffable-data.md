@@ -1,5 +1,7 @@
 ---
 title: Self Adjusting DOM and Diffable Data
+description: In my last post, I gave some simple examples showing howyou could useself
+  adjusting computations,or SAC, as embodied by our Incremental library, toincrementa...
 url: https://blog.janestreet.com/self-adjusting-dom-and-diffable-data/
 date: 2016-02-10T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png

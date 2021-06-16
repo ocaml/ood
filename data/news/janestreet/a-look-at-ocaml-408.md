@@ -1,5 +1,8 @@
 ---
 title: A look at OCaml 4.08
+description: ! "Now that OCaml 4.08 has been released, let\u2019s have a look at what
+  wasaccomplished, with a particular focus on how our plans for4.08 fared. I\u2019ll
+  mostly focus o..."
 url: https://blog.janestreet.com/a-look-at-ocaml-4.08/
 date: 2019-07-12T00:00:00-00:00
 preview_image: https://blog.janestreet.com/a-look-at-ocaml-4.08/ocaml_release-2019.jpg

@@ -1,5 +1,8 @@
 ---
 title: Introducing Incremental
+description: ! "I\u2019m pleased to announce the release ofIncremental (wellcommented
+  mlihere),a powerful library for building self-adjusting computations, i.e.,computations
+  that..."
 url: https://blog.janestreet.com/introducing-incremental/
 date: 2015-07-18T00:00:00-00:00
 preview_image: https://blog.janestreet.com/introducing-incremental/introducing_incremental.png

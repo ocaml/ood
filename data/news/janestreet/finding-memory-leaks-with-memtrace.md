@@ -1,5 +1,8 @@
 ---
 title: Finding memory leaks with Memtrace
+description: ! "Memory issues can be hard to track down. A function that onlyallocates
+  a few small objects can cause a space leak if it\u2019s calledoften enough and those
+  object..."
 url: https://blog.janestreet.com/finding-memory-leaks-with-memtrace/
 date: 2020-10-06T00:00:00-00:00
 preview_image: https://blog.janestreet.com/finding-memory-leaks-with-memtrace/memory-leak.jpg

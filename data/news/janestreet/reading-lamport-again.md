@@ -1,5 +1,8 @@
 ---
 title: Reading Lamport, again
+description: ! "We\u2019ve just kicked off an internal distributed-systems seminar.
+  Our inaugralpaper was Lamport\u2019s classic \u201CTime, Clocks and the Ordering
+  of Events in aDistribut..."
 url: https://blog.janestreet.com/reading-lamport-again/
 date: 2014-06-26T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png

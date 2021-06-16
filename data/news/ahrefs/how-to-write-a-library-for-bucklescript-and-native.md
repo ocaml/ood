@@ -1,5 +1,7 @@
 ---
 title: How to write a library for BuckleScript and Native
+description: This blog post is an introduction on how to setup a library available
+  for both BuckleScript and OCaml, sharing as much code as possible.
 url: https://tech.ahrefs.com/how-to-write-a-library-for-bucklescript-and-native-22f45e5e946d?source=rss----303662d88bae--ocaml
 date: 2019-10-22T10:09:09-00:00
 preview_image: 

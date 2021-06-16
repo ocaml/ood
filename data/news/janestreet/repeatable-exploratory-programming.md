@@ -1,5 +1,8 @@
 ---
 title: Repeatable exploratory programming
+description: ! "Expect tests are a technique I\u2019ve written aboutbefore, but until
+  recently, it\u2019s been alittle on the theoretical side. That\u2019s because it\u2019s
+  been hard to taketh..."
 url: https://blog.janestreet.com/repeatable-exploratory-programming/
 date: 2018-04-22T00:00:00-00:00
 preview_image: https://blog.janestreet.com/repeatable-exploratory-programming/lambdasoup.jpg

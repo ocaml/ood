@@ -1,5 +1,8 @@
 ---
 title: Scrutinize your code in style
+description: This is the second in a series of posts about the design of Iron, our
+  new codereview tool. You can read the first post here.Also, I should give credit
+  where ...
 url: https://blog.janestreet.com/scrutinizing-your-code-in-style/
 date: 2014-06-13T00:00:00-00:00
 preview_image: https://blog.janestreet.com/static/img/header.png
