@@ -1,3 +1,10 @@
+---
+title: An introduction to fuzzing OCaml with AFL, Crowbar and Bun
+url: https://tarides.com/blog/2019-09-04-an-introduction-to-fuzzing-ocaml-with-afl-crowbar-and-bun
+date: 2019-09-04T00:00:00-00:00
+preview_image: https://tarides.com/static/4eed05522f6733d728f6dc01bbe33e09/2244e/feather.jpg
+---
+
 <p><a href="http://lcamtuf.coredump.cx/afl/">American Fuzzy Lop</a> or AFL is a <em>fuzzer</em>: a program that tries to find bugs in
 other programs by sending them various auto-generated inputs. This article covers the
 basics of AFL and shows an example of fuzzing a parser written in OCaml. It also introduces two

@@ -1,0 +1,10 @@
+---
+title: ! 'OCaml 4.03: Everything else'
+url: https://blog.janestreet.com/ocaml-4-03-everything-else/
+date: 2016-03-01T00:00:00-00:00
+preview_image: https://blog.janestreet.com/static/img/header.png
+---
+
+<p>In my <a href="/flambda">previous post</a> I wrote about Flambda, which is the single
+biggest feature coming to OCaml in this release. In this post, I’ll review the
+other features of 4.03 that caught my eye.</p>

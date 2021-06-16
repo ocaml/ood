@@ -1,3 +1,10 @@
+---
+title: ! 'Decompress: Experiences with OCaml optimization'
+url: https://tarides.com/blog/2019-09-13-decompress-experiences-with-ocaml-optimization
+date: 2019-09-13T00:00:00-00:00
+preview_image: https://tarides.com/static/fff1a2a9a2dbdd9ac7efd7c97ac5aa2a/2244e/camel_sunset.jpg
+---
+
 <p>In our <a href="https://tarides.com/blog/2019-08-26-decompress-the-new-decompress-api.html">first article</a> we mostly discussed
 the API design of <code>decompress</code> and did not talk too much about the issue of
 optimizing performance. In this second article, we will relate our experiences

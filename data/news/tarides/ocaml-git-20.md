@@ -1,3 +1,10 @@
+---
+title: ocaml-git 2.0
+url: https://tarides.com/blog/2018-10-19-ocaml-git-2-0
+date: 2018-10-19T00:00:00-00:00
+preview_image: https://tarides.com/static/1d805022c72839f1abe63b28f225fd32/2244e/mesh.jpg
+---
+
 <p>I'm very happy to announce a new major release of <code>ocaml-git</code> (2.0).
 This release is a 2-year effort to get a revamped
 streaming API offering a full control over memory

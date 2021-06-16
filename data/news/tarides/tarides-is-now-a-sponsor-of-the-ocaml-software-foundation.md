@@ -1,3 +1,10 @@
+---
+title: Tarides is now a sponsor of the OCaml Software Foundation
+url: https://tarides.com/blog/2020-09-17-tarides-is-now-a-sponsor-of-the-ocaml-software-foundation
+date: 2020-09-17T00:00:00-00:00
+preview_image: https://tarides.com/static/305bd3e2ab2e164e61b7781d183976fd/497c6/ocaml-software-foundation.png
+---
+
 <p>Tarides is pleased to provide support for the <a href="https://ocaml-sf.org">OCaml Software
 Foundation</a>, a non-profit foundation hosted by
 the Inria Foundation. The OCaml Software Foundation's mission is to

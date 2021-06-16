@@ -1,3 +1,10 @@
+---
+title: Release of OCamlFormat 0.9
+url: https://tarides.com/blog/2019-03-29-release-of-ocamlformat-0-9
+date: 2019-03-29T00:00:00-00:00
+preview_image: https://tarides.com/static/b0a6eda566f64c66aa1761737cf3ea4a/2244e/ceiling-arches.jpg
+---
+
 <p>We are pleased to announce the release of OCamlFormat (available on opam).
 There have been numerous changes since the last release,
 so here is a comprehensive list of the new features and breaking changes to help the transition from OCamlFormat 0.8.</p>

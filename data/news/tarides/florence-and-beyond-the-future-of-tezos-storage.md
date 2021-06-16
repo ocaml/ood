@@ -1,3 +1,10 @@
+---
+title: ! 'Florence and beyond: the future of Tezos storage'
+url: https://tarides.com/blog/2021-03-04-florence-and-beyond-the-future-of-tezos-storage
+date: 2021-03-04T00:00:00-00:00
+preview_image: https://tarides.com/static/d81c504dbb5172d29c2aa38512f1dfe3/2244e/florence.jpg
+---
+
 <p>In collaboration with Nomadic Labs, Marigold and DaiLambda, we're happy to
 announce the completion of the next Tezos protocol proposal:
 <a href="http://doc.tzalpha.net/protocols/009_florence.html"><strong>Florence</strong></a>.</p>

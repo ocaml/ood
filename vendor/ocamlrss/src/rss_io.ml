@@ -105,10 +105,26 @@ exception Error of string
 let error msg = raise (Error msg)
 
 let find_ele name e =
+  let namespace, name =
+    match String.split_on_char ':' name with
+    | [ namespace; name ] -> (namespace, name)
+    | [ name ] -> ("", name)
+    | _ -> raise (Invalid_argument "invalid XML tag")
+  in
   match e with
-  | E ((("", e), _), _) when name = String.lowercase_ascii e -> true
+  | E (((n, e), _), _)
+    when name = String.lowercase_ascii e && namespace = String.lowercase_ascii n
+    ->
+      true
   | E ((("http://purl.org/rss/1.0/", e), _), _)
     when name = String.lowercase_ascii e ->
+      true
+  | E (((n, e), _), _)
+    when String.equal n
+           ( "http://purl.org/rss/1.0/modules/"
+           ^ String.lowercase_ascii namespace
+           ^ "/" )
+         && name = String.lowercase_ascii e ->
       true
   | _ -> false
 
@@ -334,6 +350,7 @@ let item_of_xmls opts xmls =
         item_enclosure = get_enclosure opts xmls;
         item_guid = get_guid opts xmls;
         item_source = get_source opts xmls;
+        item_content = f_opt "content:encoded";
         item_data = data;
       }
     in

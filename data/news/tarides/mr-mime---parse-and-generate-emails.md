@@ -1,3 +1,10 @@
+---
+title: Mr. MIME - Parse and generate emails
+url: https://tarides.com/blog/2019-09-25-mr-mime-parse-and-generate-emails
+date: 2019-09-25T00:00:00-00:00
+preview_image: https://tarides.com/static/14bcc335478eae1bbad1c2f4cdd244af/2244e/mailboxes2.jpg
+---
+
 <p>We're glad to announce the first release of <a href="https://github.com/mirage/mrmime.git"><code>mrmime</code></a>, a parser and a
 generator of emails. This library provides an <em>OCaml way</em> to analyze and craft
 an email. The eventual goal is to build an entire <em>unikernel-compatible</em> stack

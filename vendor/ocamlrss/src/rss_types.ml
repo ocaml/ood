@@ -75,6 +75,7 @@ type 'a item_t = {
   item_enclosure : enclosure option;
   item_guid : guid option;
   item_source : source option;
+  item_content : string option;
   item_data : 'a option;
 }
 

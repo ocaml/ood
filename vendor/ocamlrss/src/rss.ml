@@ -76,6 +76,7 @@ type 'a item_t = 'a Rss_types.item_t = {
   item_enclosure : enclosure option;
   item_guid : guid option;
   item_source : source option;
+  item_content : string option;
   item_data : 'a option;
 }
 
@@ -111,7 +112,7 @@ type item = unit item_t
 type channel = (unit, unit) channel_t
 
 let item ?title ?link ?desc ?pubdate ?author ?(cats = []) ?comments ?encl ?guid
-    ?source ?data () =
+    ?source ?content ?data () =
   {
     item_title = title;
     item_link = link;
@@ -123,6 +124,7 @@ let item ?title ?link ?desc ?pubdate ?author ?(cats = []) ?comments ?encl ?guid
     item_enclosure = encl;
     item_guid = guid;
     item_source = source;
+    item_content = content;
     item_data = data;
   }
 

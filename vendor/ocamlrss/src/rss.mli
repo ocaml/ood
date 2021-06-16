@@ -98,6 +98,7 @@ type 'a item_t = {
   item_enclosure : enclosure option;
   item_guid : guid option;  (** A globally unique identifier for the item. *)
   item_source : source option;
+  item_content : string option;
   item_data : 'a option;
       (** Additional data, since RSS can be extended with namespace-prefixed nodes.*)
 }
@@ -164,6 +165,7 @@ val item :
   ?encl:enclosure ->
   ?guid:guid ->
   ?source:source ->
+  ?content:string ->
   ?data:'a ->
   unit ->
   'a item_t

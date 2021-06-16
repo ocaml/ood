@@ -1,3 +1,10 @@
+---
+title: Release of Base64
+url: https://tarides.com/blog/2019-02-08-release-of-base64
+date: 2019-02-08T00:00:00-00:00
+preview_image: https://tarides.com/static/50a0344945c9df2a67b60ef32ee43a0f/2244e/mailboxes.jpg
+---
+
 <p>MirageOS is a library operating system written from the ground up in OCaml.
 It has an impossible and incredibly huge goal to re-implement all of the
 world! Looking back at the work accomplished by the MirageOS team, it appears that's

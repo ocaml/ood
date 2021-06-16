@@ -1,3 +1,10 @@
+---
+title: ! 'Decompress: The New Decompress API'
+url: https://tarides.com/blog/2019-08-26-decompress-the-new-decompress-api
+date: 2019-08-26T00:00:00-00:00
+preview_image: https://tarides.com/static/eeb13afbb9190097a8d04be9e1361642/2244e/hammock.jpg
+---
+
 <p><a href="https://tools.ietf.org/html/rfc1951">RFC 1951</a> is one of the most used standards. Indeed,
 when you launch your Linux kernel, it inflates itself according <a href="https://zlib.net/">zlib</a>
 standard, a superset of RFC 1951. Being a widely-used standard, we decided to

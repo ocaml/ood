@@ -1,3 +1,10 @@
+---
+title: An introduction to OCaml PPX ecosystem
+url: https://tarides.com/blog/2019-05-09-an-introduction-to-ocaml-ppx-ecosystem
+date: 2019-05-09T00:00:00-00:00
+preview_image: https://tarides.com/static/0e8e776eb4ab9f596324bfe7e318b854/2244e/circuit_boards.jpg
+---
+
 <p>These last few months, I spent some time writing new OCaml PPX rewriters or contributing to existing
 ones. It's a really fun experience. Toying around with the AST taught me a lot about a language I
 thought I knew really well. Turns out I actually had no idea what I was doing all these years.</p>

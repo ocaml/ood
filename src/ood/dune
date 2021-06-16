@@ -102,3 +102,13 @@
   (with-stdout-to
    %{targets}
    (run %{deps} video))))
+
+(rule
+ (deps ../ood-gen/bin/gen.exe)
+ (targets news.ml)
+ (mode
+  (promote (until-clean)))
+ (action
+  (with-stdout-to
+   %{targets}
+   (run %{deps} news))))

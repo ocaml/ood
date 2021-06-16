@@ -1,3 +1,10 @@
+---
+title: On the road to Irmin v2
+url: https://tarides.com/blog/2019-05-13-on-the-road-to-irmin-v2
+date: 2019-05-13T00:00:00-00:00
+preview_image: https://tarides.com/static/76876b69b77bdec1f25009b2ef2a6d33/2244e/tree_canopy2.jpg
+---
+
 <p>Over the past few months, we have been heavily engaged in release
 engineering the <a href="https://github.com/mirage/irmin/issues/658">Irmin 2.0 release</a>,
 which covers multiple years of work on all of its constituent

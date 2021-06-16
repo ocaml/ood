@@ -1,3 +1,10 @@
+---
+title: Introducing the GraphQL API for Irmin 2.0
+url: https://tarides.com/blog/2019-11-27-introducing-the-graphql-api-for-irmin-2-0
+date: 2019-11-27T00:00:00-00:00
+preview_image: https://tarides.com/static/774a33033c774c2c0c5b638f61694621/497c6/irmin-graphql.png
+---
+
 <p>With the release of Irmin 2.0.0, we are happy to announce a new package - <code>irmin-graphql</code>, which can be used to serve data from Irmin over HTTP. This blog post will give you some examples to help you get started, there is also <a href="https://irmin.org/tutorial/graphql">a section in the <code>irmin-tutorial</code></a> with similar information. To avoid writing the same thing twice, this post will cover the basics of getting started, plus a few interesting ideas for queries.</p>
 <p>Getting the <code>irmin-graphql</code> server running from the command-line is easy:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ irmin graphql --root<span class="token operator">=</span>/tmp/irmin</code></pre></div>

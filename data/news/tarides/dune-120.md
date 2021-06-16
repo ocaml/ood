@@ -1,3 +1,10 @@
+---
+title: Dune 1.2.0
+url: https://tarides.com/blog/2018-09-06-dune-1-2-0
+date: 2018-09-06T00:00:00-00:00
+preview_image: https://tarides.com/static/98e7b693b372846010bfcd8d54746146/2244e/sand_dune1.jpg
+---
+
 <p>After a tiny but important patch release as 1.1.1, the dune team is thrilled to
 announce the release of dune 1.2.0! Here are some highlights of the new
 features in that version. The full list of changes can be found <a href="https://github.com/ocaml/dune/blob/e3af33b43a87d7fa2d15f7b41d8bd942302742ec/CHANGES.md#120-14092018">in the dune
