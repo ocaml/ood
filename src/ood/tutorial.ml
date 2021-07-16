@@ -7118,16 +7118,16 @@ simple examples:
     print_endline "ELSE";
     failwith "else clause"
   end
-Exception: Failure "else clause".
 ELSE
+Exception: Failure "else clause".
 # if 1 = 0 then
     print_endline "THEN"
   else (
     print_endline "ELSE";
     failwith "else clause"
   )
-Exception: Failure "else clause".
 ELSE
+Exception: Failure "else clause".
 ```
 
 ## For loops and while loops
@@ -8339,16 +8339,16 @@ simple examples:</p>
     print_endline &quot;ELSE&quot;;
     failwith &quot;else clause&quot;
   end
-Exception: Failure &quot;else clause&quot;.
 ELSE
+Exception: Failure &quot;else clause&quot;.
 # if 1 = 0 then
     print_endline &quot;THEN&quot;
   else (
     print_endline &quot;ELSE&quot;;
     failwith &quot;else clause&quot;
   )
-Exception: Failure &quot;else clause&quot;.
 ELSE
+Exception: Failure &quot;else clause&quot;.
 </code></pre>
 <h2 id="for-loops-and-while-loops">For loops and while loops</h2>
 <p>OCaml supports a rather limited form of the familiar <code>for</code> loop:</p>

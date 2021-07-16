@@ -79,7 +79,7 @@ let all () =
         body_md = body;
         body_html = Omd.to_html omd;
       })
-    "workshops/en/*.md"
+    "workshops/*.md"
 
 let pp_role ppf = function
   | `Chair -> Fmt.string ppf "`Chair"

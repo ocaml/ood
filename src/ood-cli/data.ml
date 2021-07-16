@@ -464,7 +464,7 @@ module Workshop = struct
   }
   [@@deriving yaml]
 
-  let path = "data/workshops/en"
+  let path = "data/workshops"
 
   let widget_of_t =
     Widget.

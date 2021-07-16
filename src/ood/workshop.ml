@@ -80,7 +80,7 @@ let all =
   { title = {js|A memory model for multicore OCaml|js};
     authors = 
   ["Stephen Dolan"; "KC Sivaramakrishnan"];
-    link = Some {js|workshop/2017/extended-abstract__2017__stephen-dolan_kc-sivaramakrishnan__a-memory-model-for-multicore-ocaml.pdf|js};
+    link = Some {js|https://github.com/ocaml/ocaml.org-media/blob/master/meetings/ocaml/2017/extended-abstract__2017__stephen-dolan_kc-sivaramakrishnan__a-memory-model-for-multicore-ocaml.pdf|js};
     video = None;
     slides = None;
     additional_links = None;
@@ -89,7 +89,7 @@ let all =
   { title = {js|Component-based Program Synthesis in OCaml|js};
     authors = 
   ["Zhanpeng Liang"; "Kanae Tsushima"];
-    link = Some {js|extended-abstract__2017__zhanpeng-liang_kanae-tsushima__component-based-program-synthesis-in-ocaml.pdf|js};
+    link = Some {js|https://github.com/ocaml/ocaml.org-media/blob/master/meetings/ocaml/2017/extended-abstract__2017__zhanpeng-liang_kanae-tsushima__component-based-program-synthesis-in-ocaml.pdf|js};
     video = None;
     slides = None;
     additional_links = None;
@@ -98,7 +98,7 @@ let all =
   { title = {js|Extending OCaml's open|js};
     authors = ["Runhang Li";
                                                               "Jeremy Yallop"];
-    link = Some {js|workshop/2017/extended-abstract__2017__runhang-li_jeremy-yallop__extending-ocaml-s-open.pdf|js};
+    link = Some {js|https://github.com/ocaml/ocaml.org-media/blob/master/meetings/ocaml/2017/extended-abstract__2017__runhang-li_jeremy-yallop__extending-ocaml-s-open.pdf|js};
     video = Some {js|https://www.youtube.com/watch?v=rxCMop-dTuc&index=4&list=TLGGpj_CrU7rr7MxMjAxMjAxOA|js};
     slides = None;
     additional_links = Some 
@@ -108,7 +108,7 @@ let all =
   { title = {js|Genspio: Generating Shell Phrases In OCaml|js};
     authors = 
   ["Sebastien Mondet"];
-    link = Some {js|workshop/2017/extended-abstract__2017__sebastien-mondet__genspio-generating-shell-phrases-in-ocaml.pdf|js};
+    link = Some {js|https://github.com/ocaml/ocaml.org-media/blob/master/meetings/ocaml/2017/extended-abstract__2017__sebastien-mondet__genspio-generating-shell-phrases-in-ocaml.pdf|js};
     video = Some {js|https://www.youtube.com/watch?v=prwLcBUoYiA&index=3&list=TLGGpj_CrU7rr7MxMjAxMjAxOA|js};
     slides = Some {js|http://wr.mondet.org/slides/OCaml2017-Genspio/|js};
     additional_links = Some 
@@ -120,16 +120,16 @@ let all =
   ["Liang Wang"];
     link = Some {js|https://arxiv.org/abs/1707.09616|js};
     video = Some {js|https://www.youtube.com/watch?v=Jyv3tJD1N3o&index=7&list=TLGGpj_CrU7rr7MxMjAxMjAxOA|js};
-    slides = Some {js|workshop/2017/slides__2017__liang_wang__owl-a-general-purpose-numerical-library-in-ocaml.pdf|js};
+    slides = Some {js|https://github.com/ocaml/ocaml.org-media/blob/master/meetings/ocaml/2017/slides__2017__liang_wang__owl-a-general-purpose-numerical-library-in-ocaml.pdf|js};
     additional_links = None;
   };
   
   { title = {js|ROTOR: First Steps Towards a Refactoring Tool for OCaml|js};
     authors = 
   ["Reuben N. S. Rowe"; "Simon Thompson"];
-    link = Some {js|workshop/2017/extended-abstract__2017__reuben-rowe_simon-thompson__rotor-first-steps-towards-a-refactoring-tool-for-ocaml.pdf|js};
+    link = Some {js|https://github.com/ocaml/ocaml.org-media/blob/master/meetings/ocaml/2017/extended-abstract__2017__reuben-rowe_simon-thompson__rotor-first-steps-towards-a-refactoring-tool-for-ocaml.pdf|js};
     video = None;
-    slides = Some {js|workshop/2017/slides__2017__reuben-rowe_simon-thompson__rotor-first-steps-towards-a-refactoring-tool-for-ocaml.pdf|js};
+    slides = Some {js|https://github.com/ocaml/ocaml.org-media/blob/master/meetings/ocaml/2017/slides__2017__reuben-rowe_simon-thompson__rotor-first-steps-towards-a-refactoring-tool-for-ocaml.pdf|js};
     additional_links = Some 
   ["https://gitlab.com/trustworthy-refactoring/";
    "https://hub.docker.com/r/reubenrowe/ocaml-rotor"];
@@ -138,7 +138,7 @@ let all =
   { title = {js|Testing with Crowbar|js};
     authors = ["Stephen Dolan";
                                                             "Mindy Preston"];
-    link = Some {js|workshop/2017/extended-abstract__2017__stephen-dolan_mindy-preston__testing-with-crowbar.pdf|js};
+    link = Some {js|https://github.com/ocaml/ocaml.org-media/blob/master/meetings/ocaml/2017/extended-abstract__2017__stephen-dolan_mindy-preston__testing-with-crowbar.pdf|js};
     video = None;
     slides = None;
     additional_links = None;
@@ -148,7 +148,7 @@ let all =
     authors = 
   ["Benjamin Canou"; "Grégoire Henry"; "Pierre Chambart";
    "Fabrice Le Fessant"; "Arthur Breitman"];
-    link = Some {js|workshop/2017/extended-abstract__2017__benjamin-canou_gregoire-henry_pierre-chambart_fabrice-le-fessant_arthur-breitman__tezos-the-ocaml-crypto-ledger.pdf|js};
+    link = Some {js|https://github.com/ocaml/ocaml.org-media/blob/master/meetings/ocaml/2017/extended-abstract__2017__benjamin-canou_gregoire-henry_pierre-chambart_fabrice-le-fessant_arthur-breitman__tezos-the-ocaml-crypto-ledger.pdf|js};
     video = None;
     slides = None;
     additional_links = None;
@@ -157,7 +157,7 @@ let all =
   { title = {js|The State of the OCaml Platform: September 2017|js};
     authors = 
   ["Anil Madhavapeddy"];
-    link = Some {js|workshop/2017/slides__2017__anil-madhavapeddy__the-state-of-the-ocaml-platform-september-2017.pdf|js};
+    link = Some {js|https://github.com/ocaml/ocaml.org-media/blob/master/meetings/ocaml/2017/slides__2017__anil-madhavapeddy__the-state-of-the-ocaml-platform-september-2017.pdf|js};
     video = Some {js|https://www.youtube.com/watch?v=y-1Zrzdd9KM&index=6&list=TLGGpj_CrU7rr7MxMjAxMjAxOA|js};
     slides = Some {js|https://speakerdeck.com/avsm/ocaml-platform-2017|js};
     additional_links = None;
@@ -166,7 +166,7 @@ let all =
   { title = {js|Wodan: a pure OCaml, flash-aware filesystem library|js};
     authors = 
   ["Gabriel de Perthuis"];
-    link = Some {js|workshop/2017/extended-abstract__2017__gabriel-de-perthuis__wodan-a-pure-ocaml-flash-aware-filesystem-library.pdf|js};
+    link = Some {js|https://github.com/ocaml/ocaml.org-media/blob/master/meetings/ocaml/2017/extended-abstract__2017__gabriel-de-perthuis__wodan-a-pure-ocaml-flash-aware-filesystem-library.pdf|js};
     video = None;
     slides = None;
     additional_links = None;
@@ -276,11 +276,9 @@ The following works will be presented as posters.
   ([local copy](extended-abstract__2017__jeremie-dimino_mark-shinwell__jbuilder-a-modern-approach-to-ocaml-development.pdf))
 
 
-Call for presentations (past)
-=============================
+## Call for presentations (past)
 
-Scope
------
+### Scope
 
 Presentations and discussions will focus on the OCaml
 programming language and its community. We aim to solicit talks
@@ -302,8 +300,7 @@ example (but not limited to):
 - prominent industrial or experimental uses of OCaml, or
   deployments in unusual situations.
 
-Presentations
--------------
+### Presentations
 
 It will be an informal meeting with no formal proceedings. The
 presentation material will be available online from the workshop
@@ -317,8 +314,7 @@ present more diverse work, and gives time for discussion. The
 program committee will decide which presentations should be
 delivered as posters or talks.
 
-Submission
-----------
+### Submission
 
 To submit a presentation, please register a description of the
 talk (about 2 pages long) at <https://icfp-ocaml17.hotcrp.com/>
@@ -332,8 +328,7 @@ also provide the sources of their submission in a textual
 format, such as .tex sources. Reviewers may read either the
 submitted PDF or the text version.
 
-ML family workshop and post-proceedings
----------------------------------------
+### ML family workshop and post-proceedings
 
 The ML family workshop, held on the previous day, deals with
 general issues of the ML-style programming and type systems,
@@ -349,23 +344,13 @@ invite interested authors of selected presentations to expand
 their abstracts for inclusion.
 
 
-Questions and contact
----------------------
+### Questions and contact
 
 Please send any questions to the chair:
 `Gabriel Scherer <gabriel.scherer@gmail.com>`|js}
   ; toc_html = {js|<ul>
+<li><ul>
 <li>Call for presentations (past)
-<ul>
-<li>Scope
-</li>
-<li>Presentations
-</li>
-<li>Submission
-</li>
-<li>ML family workshop and post-proceedings
-</li>
-<li>Questions and contact
 </li>
 </ul>
 </li>
@@ -408,8 +393,8 @@ Jeremie Dimino, Mark Shinwell<br />
 (<a href="extended-abstract__2017__jeremie-dimino_mark-shinwell__jbuilder-a-modern-approach-to-ocaml-development.pdf">local copy</a>)</p>
 </li>
 </ul>
-<h1>Call for presentations (past)</h1>
-<h2>Scope</h2>
+<h2>Call for presentations (past)</h2>
+<h3>Scope</h3>
 <p>Presentations and discussions will focus on the OCaml
 programming language and its community. We aim to solicit talks
 on all aspects related to improving the use or development of
@@ -436,7 +421,7 @@ rationales</p>
 deployments in unusual situations.</p>
 </li>
 </ul>
-<h2>Presentations</h2>
+<h3>Presentations</h3>
 <p>It will be an informal meeting with no formal proceedings. The
 presentation material will be available online from the workshop
 homepage. The presentations may be recorded, and made available
@@ -447,7 +432,7 @@ have a poster session during the workshop -- this allows to
 present more diverse work, and gives time for discussion. The
 program committee will decide which presentations should be
 delivered as posters or talks.</p>
-<h2>Submission</h2>
+<h3>Submission</h3>
 <p>To submit a presentation, please register a description of the
 talk (about 2 pages long) at <a href="https://icfp-ocaml17.hotcrp.com/">https://icfp-ocaml17.hotcrp.com/</a>
 providing a clear statement of what will be provided by the
@@ -458,7 +443,7 @@ format. For accessibility purposes, we ask PDF submitters to
 also provide the sources of their submission in a textual
 format, such as .tex sources. Reviewers may read either the
 submitted PDF or the text version.</p>
-<h2>ML family workshop and post-proceedings</h2>
+<h3>ML family workshop and post-proceedings</h3>
 <p>The ML family workshop, held on the previous day, deals with
 general issues of the ML-style programming and type systems,
 focuses on more research-oriented work that is less specific to
@@ -470,7 +455,7 @@ mention it at submission time and/or contact the Program Chairs.</p>
 <p>We are planning to publish combined post-proceedings and to
 invite interested authors of selected presentations to expand
 their abstracts for inclusion.</p>
-<h2>Questions and contact</h2>
+<h3>Questions and contact</h3>
 <p>Please send any questions to the chair:
 <code>Gabriel Scherer &lt;gabriel.scherer@gmail.com&gt;</code></p>
 |js}
@@ -849,63 +834,174 @@ The meeting is an informal community gathering of users of the language, library
     info = {js|OCaml Workshop|js};
   }]
   ; presentations = 
- []
-  ; program_committee = [
+ [
+  { title = {js|A Declarative Syntax Definition for OCaml|js};
+    authors = 
+  ["Luis Eduardo de Souza Amorim"; "Eelco Visser"];
+    link = None;
+    video = Some {js|https://watch.ocaml.org/videos/watch/a5b86864-8e43-4138-b6d6-ed48d2d4b63d|js};
+    slides = None;
+    additional_links = None;
+  };
+  
+  { title = {js|A Simple State-Machine Framework for Property-Based Testing in OCaml|js};
+    authors = 
+  ["Jan Midtgaard"];
+    link = None;
+    video = Some {js|https://watch.ocaml.org/videos/watch/08b429ea-2eb8-427d-a625-5495f4ee0fef|js};
+    slides = None;
+    additional_links = None;
+  };
+  
+  { title = {js|AD-OCaml: Algorithmic Differentiation for OCaml|js};
+    authors = 
+  ["Markus Mottl"];
+    link = None;
+    video = Some {js|https://watch.ocaml.org/videos/watch/c9e85690-732f-4b03-836f-2ee0fd8f0658|js};
+    slides = None;
+    additional_links = None;
+  };
+  
+  { title = {js|API Migration: compare transformed|js};
+    authors = 
+  ["Joseph Harrison"; "Steven Varoumas"; "Simon Thompson"; "Reuben Rowe"];
+    link = None;
+    video = Some {js|https://watch.ocaml.org/videos/watch/c46b925b-bd77-404f-ac5d-5dab65047529|js};
+    slides = None;
+    additional_links = None;
+  };
+  
+  { title = {js|Irmin v2|js};
+    authors = ["Clément Pascutto";
+                                                "Ioana Cristescu";
+                                                "Craig Ferguson";
+                                                "Thomas Gazagnaire";
+                                                "Romain Liautaud"];
+    link = None;
+    video = Some {js|https://watch.ocaml.org/videos/watch/53e497b0-898f-4c85-8da9-39f65ef0e0b1|js};
+    slides = None;
+    additional_links = None;
+  };
+  
+  { title = {js|LexiFi Runtime Types|js};
+    authors = ["Patrik Keller";
+                                                            "Marc Lasson"];
+    link = None;
+    video = Some {js|https://watch.ocaml.org/videos/watch/cc7e3242-0bef-448a-aa13-8827bba933e3|js};
+    slides = None;
+    additional_links = None;
+  };
+  
+  { title = {js|OCaml Under The Hood: SmartPy|js};
+    authors = ["Sebastien Mondet"];
+    link = None;
+    video = Some {js|https://watch.ocaml.org/videos/watch/7446ad4d-4ae2-4e1a-bc38-af8f71e8ebd8|js};
+    slides = None;
+    additional_links = None;
+  };
+  
+  { title = {js|OCaml-CI: A Zero-Configuration CI|js};
+    authors = 
+  ["Thomas Leonard"; "Craig Ferguson"; "Kate Deplaix"; "Magnus Skjegstad";
+   "Anil Madhavapeddy"];
+    link = None;
+    video = Some {js|https://watch.ocaml.org/videos/watch/da88d6ac-7ba1-4261-9308-d03fe21e35b9|js};
+    slides = None;
+    additional_links = None;
+  };
+  
+  { title = {js|Parallelising your OCaml Code with Multicore OCaml|js};
+    authors = 
+  ["Sadiq Jaffer"; "Sudha Parimala"; "KC Sivaramakrishnan"; "Tom Kelly";
+   "Anil Madhavapeddy"];
+    link = Some {js|https://github.com/ocaml-multicore/multicore-talks/tree/master/ocaml2020-workshop-parallel|js};
+    video = Some {js|https://watch.ocaml.org/videos/watch/ce20839e-4bfc-4d74-925b-485a6b052ddf|js};
+    slides = None;
+    additional_links = None;
+  };
+  
+  { title = {js|The ImpFS filesystem|js};
+    authors = ["Tom Ridge"];
+    link = None;
+    video = Some {js|https://watch.ocaml.org/videos/watch/28545b27-4637-47a5-8edd-6b904daef19c|js};
+    slides = None;
+    additional_links = None;
+  };
+  
+  { title = {js|The Final Pieces of the OCaml Documentation Puzzle|js};
+    authors = 
+  ["Jonathan Ludlam"; "Gabriel Radanne"; "Leo White"];
+    link = None;
+    video = Some {js|https://watch.ocaml.org/videos/watch/2acebff9-25fa-4733-83cc-620a65b12251|js};
+    slides = None;
+    additional_links = None;
+  };
+  
+  { title = {js|Types in amber|js};
+    authors = ["Paul Steckler";
+                                                      "Matthew Ryan"];
+    link = None;
+    video = Some {js|https://watch.ocaml.org/videos/watch/99b3dc75-9f93-4677-9f8b-076546725512|js};
+    slides = None;
+    additional_links = None;
+  }]
+  ; program_committee = 
+ [
   { name = {js|Ivan Gotovchits|js};
     role = Some `Chair;
     affiliation = Some {js|CMU, USA|js};
   };
-                             
+  
   { name = {js|Florian Angeletti|js};
     role = None;
     affiliation = Some {js|INRIA, France|js};
   };
-                             
+  
   { name = {js|Chris Casinghino|js};
     role = None;
     affiliation = Some {js|Draper Laboratory, USA|js};
   };
-                             
+  
   { name = {js|Catherine Gasnier|js};
     role = None;
     affiliation = Some {js|Facebook, USA|js};
   };
-                             
+  
   { name = {js|Rudi Grinberg|js};
     role = None;
     affiliation = Some {js|OCaml Labs, UK|js};
   };
-                             
+  
   { name = {js|Oleg Kiselyov|js};
     role = None;
     affiliation = Some {js|Tohoku University, Japan|js};
   };
-                             
+  
   { name = {js|Andreas Rossberg|js};
     role = None;
     affiliation = Some {js|Dfinity Stiftung, Germany|js};
   };
-                             
+  
   { name = {js|Marcello Seri|js};
     role = None;
     affiliation = Some {js|University of Groningen, Netherlands|js};
   };
-                             
+  
   { name = {js|Edwin Torok|js};
     role = None;
     affiliation = Some {js|Citrix, UK|js};
   };
-                             
+  
   { name = {js|Leo White|js};
     role = None;
     affiliation = Some {js|Jane Street, USA|js};
   };
-                             
+  
   { name = {js|Greta Yorsh|js};
     role = None;
     affiliation = Some {js|Jane Street, USA|js};
   };
-                             
+  
   { name = {js|Sarah Zennou|js};
     role = None;
     affiliation = Some {js|Airbus, France|js};
@@ -999,9 +1095,8 @@ and the free software community.
 The meeting is an informal community gathering of users of the language,
 library authors, and developers, using and extending OCaml in new ways.
 The meeting will be held online this year.
+## News
 
-News
-----
 - July 17, 2020: Talks are accepted!
 - May 7, 2020: Deadline Extension.
 - March 30, 2020: [Workshop annoucement](https://icfp20.sigplan.org/home/ocaml-2020#Call-for-Presentations). The [submission website](https://ocaml2020.hotcrp.com/) is also open.
@@ -1055,83 +1150,83 @@ The meeting will be held online this year.</p>
   ; program_committee = [
   { name = {js|Frédéric Bour|js};
     role = Some `Chair;
-    affiliation = Some {js|Tarides, France|js};
+    affiliation = None;
+  };
+                             
+  { name = {js|Mehdi Bouaziz|js};
+    role = None;
+    affiliation = Some {js|Nomadic Labs, France|js};
+  };
+                             
+  { name = {js|Simon Castellan|js};
+    role = None;
+    affiliation = Some {js|INRIA, France|js};
+  };
+                             
+  { name = {js|Youyou Cong|js};
+    role = None;
+    affiliation = Some {js|Tokyo Institute of Technology, Japan|js};
+  };
+                             
+  { name = {js|Kate Deplaix|js};
+    role = None;
+    affiliation = Some {js|OCaml Labs, UK|js};
+  };
+                             
+  { name = {js|Jun Furuse|js};
+    role = None;
+    affiliation = Some {js|DaiLambda, Japan|js};
+  };
+                             
+  { name = {js|Joris Giovannangeli|js};
+    role = None;
+    affiliation = Some {js|Ahrefs Research|js};
+  };
+                             
+  { name = {js|Kihong Heo|js};
+    role = None;
+    affiliation = Some {js|KAIST, South Korea|js};
+  };
+                             
+  { name = {js|Hugo Heuzard|js};
+    role = None;
+    affiliation = Some {js|Jane Street|js};
+  };
+                             
+  { name = {js|Vaivaswatha Nagaraj|js};
+    role = None;
+    affiliation = Some {js|Zilliqa Research, India|js};
+  };
+                             
+  { name = {js|Hakjoo Oh|js};
+    role = None;
+    affiliation = Some {js|Korea University|js};
+  };
+                             
+  { name = {js|Jonathan Protzenko|js};
+    role = None;
+    affiliation = Some {js|Microsoft Research Redmond, USA|js};
+  };
+                             
+  { name = {js|Cristina Rosu|js};
+    role = None;
+    affiliation = Some {js|Jane Street|js};
+  };
+                             
+  { name = {js|Jeffrey A. Scofield|js};
+    role = None;
+    affiliation = Some {js|Psellos|js};
+  };
+                             
+  { name = {js|Ryohei Tokuda|js};
+    role = None;
+    affiliation = Some {js|Idein|js};
   }]
   ; organising_committee = 
  [
   { name = {js|Frédéric Bour|js};
     role = Some `Chair;
-    affiliation = None;
-  };
-  
-  { name = {js|Mehdi Bouaziz|js};
-    role = None;
-    affiliation = Some {js|Nomadic Labs, France|js};
-  };
-  
-  { name = {js|Simon Castellan|js};
-    role = None;
-    affiliation = Some {js|INRIA, France|js};
-  };
-  
-  { name = {js|Youyou Cong|js};
-    role = None;
-    affiliation = Some {js|Tokyo Institute of Technology, Japan|js};
-  };
-  
-  { name = {js|Kate Deplaix|js};
-    role = None;
-    affiliation = Some {js|OCaml Labs, UK|js};
-  };
-  
-  { name = {js|Jun Furuse|js};
-    role = None;
-    affiliation = Some {js|DaiLambda, Japan|js};
-  };
-  
-  { name = {js|Joris Giovannangeli|js};
-    role = None;
-    affiliation = Some {js|Ahrefs Research|js};
-  };
-  
-  { name = {js|Kihong Heo|js};
-    role = None;
-    affiliation = Some {js|KAIST, South Korea|js};
-  };
-  
-  { name = {js|Hugo Heuzard|js};
-    role = None;
-    affiliation = Some {js|Jane Street|js};
-  };
-  
-  { name = {js|Vaivaswatha Nagaraj|js};
-    role = None;
-    affiliation = Some {js|Zilliqa Research, India|js};
-  };
-  
-  { name = {js|Hakjoo Oh|js};
-    role = None;
-    affiliation = Some {js|Korea University|js};
-  };
-  
-  { name = {js|Jonathan Protzenko|js};
-    role = None;
-    affiliation = Some {js|Microsoft Research Redmond, USA|js};
-  };
-  
-  { name = {js|Cristina Rosu|js};
-    role = None;
-    affiliation = Some {js|Jane Street|js};
-  };
-  
-  { name = {js|Jeffrey A. Scofield|js};
-    role = None;
-    affiliation = Some {js|Psellos|js};
-  };
-  
-  { name = {js|Ryohei Tokuda|js};
-    role = None;
-    affiliation = Some {js|Idein|js};
+    affiliation = Some {js|Tarides, France|js};
   }]
   ; body_md = {js|
 OCaml 2021 will be a virtual workshop, co-located with ICFP 2021.

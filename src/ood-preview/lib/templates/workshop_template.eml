@@ -18,12 +18,14 @@ let render_nav workshops =
 
 let render_committee_member (c : Ood.Workshop.committee_member) = 
   <li>  
-    <%s! match c.affiliation with Some a -> Fmt.str "%s %s" c.name a | None -> c.name %>
+    <%s! match c.affiliation with Some a -> Fmt.str "%s, %s" c.name a | None -> c.name %>
   </li>
 
 let render_presentation (c : Ood.Workshop.presentation) = 
-  <li>  
-    <%s! Fmt.str "%s by %a" c.title Fmt.(list string) c.authors%>
+  <li>
+    <%s! match c.link with Some link -> Fmt.str {|<a href="%s">%s</a>|} link c.title | None -> c.title %>
+    <%s! Fmt.str "by %a" Fmt.(list ~sep:(fun ppf _ -> Fmt.pf ppf ", ") string) c.authors%>
+    <%s! match c.video with Some video -> Fmt.str {|[<a href="%s">video</a>]|} video | None -> "" %>
   </li>
 
 
