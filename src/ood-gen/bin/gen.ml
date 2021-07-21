@@ -1,4 +1,4 @@
-open Cmdliner
+open Cmdliner 
 
 let term_templates =
   [
@@ -10,8 +10,8 @@ let term_templates =
     ("success_story", Ood_gen.Success_story.template);
     ("tool", Ood_gen.Tool.template);
     ("tutorial", Ood_gen.Tutorial.template);
-    ("workshops", Ood_gen.Workshop.template);
     ("video", Ood_gen.Video.template);
+    ("watch", Ood_gen.Watch.template);
     ("news", Ood_gen.News.template);
   ]
 
