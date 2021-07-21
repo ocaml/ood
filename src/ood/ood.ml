@@ -1,119 +1,233 @@
-module Meta = struct
-  module Proficiency = struct
-    type t = [ `Beginner | `Intermediate | `Advanced ]
+module Meta : sig
+  module Proficiency : sig
+    type t = [ `Advanced | `Beginner | `Intermediate ]
 
-    let to_string = function
-      | `Beginner -> "beginner"
-      | `Intermediate -> "intermediate"
-      | `Advanced -> "advanced"
+    val to_string : t -> string
 
-    let of_string = function
-      | "beginner" -> Ok `Beginner
-      | "intermediate" -> Ok `Intermediate
-      | "advanced" -> Ok `Advanced
-      | s -> Error (`Msg ("Unknown proficiency type: " ^ s))
+    val of_string : string -> (t, [> `Msg of string ]) result
   end
 
-  module Archetype = struct
+  module Archetype : sig
     type t =
-      [ `Beginner
-      | `Teacher
-      | `Library_author
-      | `Application_developer
+      [ `Application_developer
+      | `Beginner
+      | `Distribution_manager
       | `End_user
-      | `Distribution_manager ]
+      | `Library_author
+      | `Teacher ]
 
-    let to_string = function
-      | `Beginner -> "beginner"
-      | `Teacher -> "teacher"
-      | `Library_author -> "library-author"
-      | `Application_developer -> "application-developer"
-      | `End_user -> "end-user"
-      | `Distribution_manager -> "distribution-manager"
+    val to_string : t -> string
 
-    let of_string = function
-      | "beginner" -> Ok `Beginner
-      | "teacher" -> Ok `Teacher
-      | "library-author" -> Ok `Library_author
-      | "application-developer" -> Ok `Application_developer
-      | "end-user" -> Ok `End_user
-      | "distribution-manager" -> Ok `Distribution_manager
-      | s -> Error (`Msg ("Unknown archetype type: " ^ s))
+    val of_string : string -> (t, [> `Msg of string ]) result
   end
 end
 
-module Academic_institution = struct
-  include Academic_institution
+module Academic_institution : sig
+  type location = { lat : float; long : float }
 
-  let get_by_slug slug = List.find_opt (fun x -> String.equal slug x.slug) all
+  type course = {
+    name : string;
+    acronym : string option;
+    online_resource : string option;
+  }
+
+  type t = {
+    name : string;
+    slug : string;
+    description : string;
+    url : string;
+    logo : string option;
+    continent : string;
+    courses : course list;
+    location : location option;
+    body_md : string;
+    body_html : string;
+  }
+
+  val all : t list
+
+  val get_by_slug : string -> t option
 end
 
-module Book = struct
-  include Book
+module Book : sig
+  type link = { description : string; uri : string }
 
-  let get_by_slug slug = List.find_opt (fun x -> String.equal slug x.slug) all
+  type t = {
+    title : string;
+    slug : string;
+    description : string;
+    authors : string list;
+    language : string;
+    published : string option;
+    cover : string option;
+    isbn : string option;
+    links : link list;
+    body_md : string;
+    body_html : string;
+  }
+
+  val all : t list
+
+  val get_by_slug : string -> t option
 end
 
-module Event = struct
-  include Event
+module Event : sig
+  type t = {
+    title : string;
+    slug : string;
+    description : string;
+    url : string;
+    date : string;
+    tags : string list;
+    online : bool;
+    textual_location : string option;
+    location : string option;
+  }
 
-  let get_by_slug slug = List.find_opt (fun x -> String.equal slug x.slug) all
+  val all : t list
+
+  val get_by_slug : string -> t option
 end
 
-module Industrial_user = struct
-  include Industrial_user
+module Industrial_user : sig
+  type t = {
+    name : string;
+    slug : string;
+    description : string;
+    image : string option;
+    site : string;
+    locations : string list;
+    consortium : bool;
+    body_md : string;
+    body_html : string;
+  }
 
-  let get_by_slug slug = List.find_opt (fun x -> String.equal slug x.slug) all
+  val all : t list
+
+  val get_by_slug : string -> t option
 end
 
-module Paper = struct
-  include Paper
+module Paper : sig
+  type t = {
+    title : string;
+    slug : string;
+    publication : string;
+    authors : string list;
+    abstract : string;
+    tags : string list;
+    year : int;
+    links : string list;
+  }
 
-  let get_by_slug slug = List.find_opt (fun x -> String.equal slug x.slug) all
+  val all : t list
+
+  val get_by_slug : string -> t option
 end
 
-module Success_story = struct
-  include Success_story
+module Success_story : sig
+  type t = {
+    title : string;
+    slug : string;
+    image : string option;
+    url : string option;
+    body_md : string;
+    body_html : string;
+  }
 
-  let get_by_slug slug = List.find_opt (fun x -> String.equal slug x.slug) all
+  val all : t list
+
+  val get_by_slug : string -> t option
 end
 
-module Tool = struct
-  include Tool
+module Tool : sig
+  type lifecycle = [ `Incubate | `Active | `Sustain | `Deprecate ]
 
-  let get_by_slug slug = List.find_opt (fun x -> String.equal slug x.slug) all
+  type t = {
+    name : string;
+    slug : string;
+    source : string;
+    license : string;
+    synopsis : string;
+    description : string;
+    lifecycle : lifecycle;
+  }
+
+  val all : t list
+
+  val get_by_slug : string -> t option
 end
 
-module Tutorial = struct
-  include Tutorial
+module Tutorial : sig
+  type t = {
+    title : string;
+    slug : string;
+    description : string;
+    date : string;
+    tags : string list;
+    users : Meta.Proficiency.t list;
+    body_md : string;
+    toc_html : string;
+    body_html : string;
+  }
 
-  let get_by_slug slug = List.find_opt (fun x -> String.equal slug x.slug) all
+  val all : t list
+
+  val get_by_slug : string -> t option
 end
 
-module News = struct
-  include News
+module Video : sig
+  type kind = [ `Conference | `Mooc | `Lecture ]
 
-  let get_by_slug slug = List.find_opt (fun x -> String.equal slug x.slug) all
+  val kind_of_string : string -> (kind, [> `Msg of string ]) result
+
+  val kind_to_string : kind -> string
+
+  type t = {
+    title : string;
+    slug : string;
+    description : string;
+    people : string list;
+    kind : kind;
+    tags : string list;
+    paper : string option;
+    link : string;
+    embed : string option;
+    year : int;
+  }
+
+  val all : t list
+
+  val get_by_slug : string -> t option
 end
 
-module Watch = struct
-  include Watch
+module Watch : sig
+
+  type t = {
+    name : string;
+    embedPath : string;
+    thumbnailPath : string;
+    description : string;
+    year : int;
+    language : string;
+    category : string;
+  }
+
+  val all : t list
 
 end
 
-module Video = struct
-  include Video
+module News : sig
+  type t = {
+    title : string;
+    slug : string;
+    description : string option;
+    url : string;
+    date : string;
+    preview_image : string option;
+    body_html : string;
+  }
 
-  let kind_to_string = function
-    | `Conference -> "conference"
-    | `Mooc -> "mooc"
-    | `Lecture -> "lecture"
+  val all : t list
 
-  let kind_of_string = function
-    | "conference" -> Ok `Conference
-    | "mooc" -> Ok `Mooc
-    | "lecture" -> Ok `Lecture
-    | s -> Error (`Msg ("Unknown proficiency type: " ^ s))
-
-  let get_by_slug slug = List.find_opt (fun x -> String.equal slug x.slug) all
+  val get_by_slug : string -> t option
 end
