@@ -35,8 +35,8 @@ let t =
         ; { label = "Books"; url = "/books"; icon = ""; text = "" }
         ; { label = "Events"; url = "/events"; icon = ""; text = "" }
         ; { label = "Videos"; url = "/videos"; icon = ""; text = "" }
+        ; { label = "watch"; url = "/watch"; icon = ""; text = "" }
         ; { label = "Tutorials"; url = "/tutorials"; icon = ""; text = "" }
-        ; { label = "Workshops"; url = "/workshops"; icon = ""; text = "" }
         ; { label = "Platform"; url = "/tools"; icon = ""; text = "" }
         ; { label = "News"; url = "/news"; icon = ""; text = "" }
         ]
