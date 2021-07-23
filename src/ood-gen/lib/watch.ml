@@ -58,8 +58,8 @@ let pp ppf v =
   ; language = %a
   ; category = %a
   }|}
-    Pp.string v.name Pp.string v.embedPath Pp.string v.thumbnailPath Pp.string v.description
-    v.year Pp.string v.language Pp.string v.category
+    Pp.string v.name Pp.string v.embedPath Pp.string v.thumbnailPath Pp.string
+    v.description v.year Pp.string v.language Pp.string v.category
 
 let pp_list = Pp.list pp
 

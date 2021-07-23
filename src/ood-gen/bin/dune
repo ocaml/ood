@@ -10,8 +10,7 @@
  (libraries cmdliner ood_gen)
  (flags :standard -safe-string))
 
- (executable
- (name watch)
- (modules watch)
+(executable
+ (name watch_scrape)
+ (modules watch_scrape)
  (libraries yaml ezjsonm curly))
-
