@@ -9,3 +9,9 @@
  (modules scrape)
  (libraries cmdliner ood_gen)
  (flags :standard -safe-string))
+
+ (executable
+ (name watch)
+ (modules watch)
+ (libraries yaml ezjsonm curly))
+
