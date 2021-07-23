@@ -1,4 +1,6 @@
-type t =
+
+
+  type t =
   { name: string;
     embedPath : string;
     thumbnailPath : string;
