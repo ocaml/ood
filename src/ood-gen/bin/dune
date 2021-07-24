@@ -13,4 +13,4 @@
 (executable
  (name watch_scrape)
  (modules watch_scrape)
- (libraries yaml ezjsonm curly))
+ (libraries yaml ezjsonm piaf))

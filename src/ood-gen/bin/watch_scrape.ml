@@ -46,20 +46,26 @@ let to_yaml t =
       ("category", `String t.category);
     ]
 
+let get_sync url =
+  let open Piaf in
+  let open Lwt_result.Syntax in
+  Lwt_main.run
+    ( print_endline "Sending request...";
+
+      let* response = Client.Oneshot.get (Uri.of_string url) in
+
+      if Status.is_successful response.status then Body.to_string response.body
+      else
+        let message = Status.to_string response.status in
+        Lwt.return (Error (`Msg message)) )
+
 let () =
   let data () =
-    match
-      Curly.(
-        run
-          (Request.make ~url:"https://watch.ocaml.org/api/v1/videos" ~meth:`GET
-             ()))
-    with
-    | Ok x -> Ezjsonm.value_from_string x.Curly.Response.body
-    | Error e ->
-        Curly.Error.pp Format.std_formatter e;
-        (* Print the error to stdout *)
-        failwith "HTTP request failed"
-    (* Fail program with a message *)
+    match get_sync "https://watch.ocaml.org/api/v1/videos" with
+    | Ok body -> Ezjsonm.value_from_string body
+    | Error error ->
+        let message = Error.to_string error in
+        prerr_endline ("Error: " ^ message)
   in
 
   let v = data () in
