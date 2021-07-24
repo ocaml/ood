@@ -66,7 +66,7 @@ let () =
     | Ok body -> Ezjsonm.value_from_string body
     | Error error ->
         let message = Error.to_string error in
-        failwith "HTTP request failed"
+        failwith message
   in
 
   let v = data () in
