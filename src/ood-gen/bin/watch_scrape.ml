@@ -1,3 +1,5 @@
+open Piaf
+
 type t = {
   name : string;
   embedPath : string;
@@ -16,7 +18,7 @@ let get_string_from_value json =
 (* extract year from originally published date string *)
 let get_year json =
   let s = Ezjsonm.get_string json in
-  String.sub s ~pos:0 ~len:4
+  String.sub s 0 4
 
 (* extract value of language and category *)
 let get_language_category json =
@@ -47,7 +49,6 @@ let to_yaml t =
     ]
 
 let get_sync url =
-  let open Piaf in
   let open Lwt_result.Syntax in
   Lwt_main.run
     ( print_endline "Sending request...";
@@ -65,7 +66,7 @@ let () =
     | Ok body -> Ezjsonm.value_from_string body
     | Error error ->
         let message = Error.to_string error in
-        prerr_endline ("Error: " ^ message)
+        failwith "HTTP request failed"
   in
 
   let v = data () in
