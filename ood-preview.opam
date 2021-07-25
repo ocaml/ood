@@ -15,7 +15,7 @@ depends: [
   "dream-cli"
   "dream-livereload"
   "yaml"
-  "omd"
+  "omd" {>= "2.0.0"}
   "ood" {= version}
   "alcotest" {with-test}
   "odoc" {with-doc}

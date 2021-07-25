@@ -21,7 +21,10 @@
  (description
   "The ood library defines types for the different data types we store in this repository. It aims to be as platform agnostic as possible, that means just types no dependencies that could prevent someone from using the library.")
  (depends
-  (mdx (and (>= 1.10.0) :with-test))))
+  (mdx
+   (and
+    (>= 1.10.0)
+    :with-test))))
 
 (package
  (name ood-preview)
@@ -36,7 +39,8 @@
   dream-cli
   dream-livereload
   yaml
-  omd
+  (omd
+   (>= 2.0.0))
   (ood
    (= :version))
   (alcotest :with-test)
@@ -58,6 +62,9 @@
   lambdasoup
   cmdliner
   crunch
+  ppx_deriving_yaml
+  (omd
+   (>= 2.0.0))
   ; Required by ocamlrss
   xmlm
   uri))
