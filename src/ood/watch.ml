@@ -12,24 +12,6 @@
   
 let all = 
 [
-  { name = {js|Using postgres with OCaml|js}
-  ; embedPath = {js|/videos/embed/860ecbd6-e96f-44e2-b849-3a0fa1feb369|js}
-  ; thumbnailPath = {js|/static/thumbnails/2befe3d4-7c36-4930-bf55-7152c6ae0324.jpg|js}
-  ; description = {js|Huge session of troubleshooting, but that is how coding really is. ppx_rapper: http://opam.ocaml.org/packages/ppx_rapper/ examples-reason-postgres: https://github.com/EduardoRFS/examples-reason-postgres/|js}
-  ; year = 2021
-  ; language = {js|English|js}
-  ; category = {js|Science & Technology|js}
-  };
- 
-  { name = {js|Making a CRUD in OCaml|js}
-  ; embedPath = {js|/videos/embed/2c08ebdd-fdca-4865-a8fc-ecd13cd1e9f5|js}
-  ; thumbnailPath = {js|/static/thumbnails/fdbd8806-49e3-45bf-96d2-ebc2d9dd91c2.jpg|js}
-  ; description = {js||js}
-  ; year = 2021
-  ; language = {js|English|js}
-  ; category = {js|Science & Technology|js}
-  };
- 
   { name = {js|State of the OCaml Platform 2020|js}
   ; embedPath = {js|/videos/embed/0e2070fd-798b-47f7-8e69-ef75e967e516|js}
   ; thumbnailPath = {js|/static/thumbnails/4fd6a51f-686c-4f6f-8026-83692304b432.jpg|js}
@@ -151,5 +133,23 @@ against multiple OCaml versions and OS platforms...|js}
   ; year = 2020
   ; language = {js|Unknown|js}
   ; category = {js|Misc|js}
+  };
+ 
+  { name = {js|OCaml-CI : A Zero-Configuration CI|js}
+  ; embedPath = {js|/videos/embed/da88d6ac-7ba1-4261-9308-d03fe21e35b9|js}
+  ; thumbnailPath = {js|/static/thumbnails/1c22a14e-f067-4d4e-8e26-027cc6d8a491.jpg|js}
+  ; description = {js|OCaml-CI1 is a CI service for OCaml projects. It uses metadata from the project’s opam and dune files to work out what to build, and uses caching to make builds fast. It automatically tests projects against multiple OCaml versions and OS platforms...|js}
+  ; year = 2020
+  ; language = {js|English|js}
+  ; category = {js|Science & Technology|js}
+  };
+ 
+  { name = {js|History and key features of OCaml Language|js}
+  ; embedPath = {js|/videos/embed/64da4a9f-777e-478a-bd94-94ea8b57e570|js}
+  ; thumbnailPath = {js|/static/thumbnails/878b7470-9eea-4321-9276-3f888571c4e4.jpg|js}
+  ; description = {js|The OCaml programming language is a member of the ML language family pioneered by Robin Milner. An important feature of OCaml is that it reconciles the conciseness and flexibility of untyped programming languages (like Python, for example) with th...|js}
+  ; year = 2020
+  ; language = {js|English|js}
+  ; category = {js|Education|js}
   }]
 

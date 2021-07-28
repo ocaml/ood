@@ -1,20 +1,4 @@
 watch:
-  - name: Using postgres with OCaml
-    description: ! 'Huge session of troubleshooting, but that is how coding really is.
-      ppx_rapper: http://opam.ocaml.org/packages/ppx_rapper/
-      examples-reason-postgres: https://github.com/EduardoRFS/examples-reason-postgres/'
-    embedPath: /videos/embed/860ecbd6-e96f-44e2-b849-3a0fa1feb369
-    thumbnailPath: /static/thumbnails/2befe3d4-7c36-4930-bf55-7152c6ae0324.jpg
-    year: 2021
-    language: English
-    category: Science & Technology
-  - name: Making a CRUD in OCaml
-    description: ""
-    embedPath: /videos/embed/2c08ebdd-fdca-4865-a8fc-ecd13cd1e9f5
-    thumbnailPath: /static/thumbnails/fdbd8806-49e3-45bf-96d2-ebc2d9dd91c2.jpg
-    year: 2021
-    language: English
-    category: Science & Technology
   - name: State of the OCaml Platform 2020
     description: ! 'This talk covers:
       - Integrated Development Environments
@@ -145,3 +129,23 @@ watch:
     year: 2020
     language: Unknown
     category: Misc
+  - name: ! 'OCaml-CI : A Zero-Configuration CI'
+    description: ! "OCaml-CI1 is a CI service for OCaml projects. It uses metadata from
+      the project\u2019s opam and dune files to work out what to build, and uses caching
+      to make builds fast. It automatically tests projects against multiple OCaml versions
+      and OS platforms..."
+    embedPath: /videos/embed/da88d6ac-7ba1-4261-9308-d03fe21e35b9
+    thumbnailPath: /static/thumbnails/1c22a14e-f067-4d4e-8e26-027cc6d8a491.jpg
+    year: 2020
+    language: English
+    category: Science & Technology
+  - name: History and key features of OCaml Language
+    description: The OCaml programming language is a member of the ML language family
+      pioneered by Robin Milner. An important feature of OCaml is that it reconciles
+      the conciseness and flexibility of untyped programming languages (like Python,
+      for example) with th...
+    embedPath: /videos/embed/64da4a9f-777e-478a-bd94-94ea8b57e570
+    thumbnailPath: /static/thumbnails/878b7470-9eea-4321-9276-3f888571c4e4.jpg
+    year: 2020
+    language: English
+    category: Education
