@@ -58,6 +58,7 @@
   ezjsonm
   ptime
   fmt
+  fpath
   piaf
   lambdasoup
   cmdliner
