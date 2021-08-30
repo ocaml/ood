@@ -1,7 +1,7 @@
 (library
  (name ood_gen)
  (package ood-gen)
- (libraries omd yaml unix ptime fmt piaf ocamlrss lambdasoup)
+ (libraries omd yaml unix ptime fmt piaf ocamlrss lambdasoup fpath)
  (preprocess
   (pps ppx_deriving_yaml)))
 
