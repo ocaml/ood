@@ -40,7 +40,7 @@
   dream-livereload
   yaml
   (omd
-   (>= 2.0.0))
+   (>= 2.0.0~alpha2))
   (ood
    (= :version))
   (alcotest :with-test)
@@ -65,7 +65,7 @@
   crunch
   ppx_deriving_yaml
   (omd
-   (>= 2.0.0))
+   (>= 2.0.0~alpha2))
   ; Required by ocamlrss
   xmlm
   uri))
