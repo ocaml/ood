@@ -9,4 +9,4 @@ locations:
 consortium: false
 ---
 
-  Dassault Systèmes, la société 3DEXPERIENCE, fournit aux entreprises et aux particuliers des univers virtuels pour imaginer des innovations durables.
+Dassault Systèmes, la société 3DEXPERIENCE, fournit aux entreprises et aux particuliers des univers virtuels pour imaginer des innovations durables.

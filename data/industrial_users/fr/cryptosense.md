@@ -9,4 +9,4 @@ locations:
 consortium: false
 ---
 
-Basée à Paris, en France, Cryptosense crée des logiciels d'analyse de sécurité avec un accent particulier sur les systèmes cryptographiques. Venant de l'Institut de recherche en informatique (Inria), les fondateurs de Cryptosense combinent plus de 40 ans d'expérience dans la recherche et l'industrie. Cryptosense fournit ses solutions à une clientèle internationale, notamment dans les secteurs financier, industriel et gouvernemental.
+Basée à Paris, en France, Cryptosense crée des logiciels d'analyse de sécurité avec un accent particulier sur les systèmes cryptographiques. Venant de l'Institut de recherche en informatique (INRIA), les fondateurs de Cryptosense combinent plus de 40 ans d'expérience dans la recherche et l'industrie. Cryptosense fournit ses solutions à une clientèle internationale, notamment dans les secteurs financier, industriel et gouvernemental.

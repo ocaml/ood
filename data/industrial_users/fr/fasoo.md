@@ -9,4 +9,4 @@ locations:
 consortium: false
 ---
 
-Fasoo uses OCaml to develop a static analysis tool.
+Fasoo utilise OCaml pour développer un outil d'analyse statique.
