@@ -1,3 +1,5 @@
+❗ **This repository has moved to https://github.com/ocaml/v3.ocaml.org-server. Please open issues and PRs there.**
+
 Typed and Versioned Data for OCaml.org v3
 -----------------------------------------
 
